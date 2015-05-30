@@ -1,0 +1,71 @@
+eeschema (2010-00-09 BZR 23xx)-stable  >> Creation date: jeu. 05 mai 2011 15:07:27 ICT
+
+#Cmp ( ordre = Référence )
+| 12V1       CONN_1      ;             
+| 5V1        CONN_1      ;             
+| C1         100nF       ;             
+| D1         DIODESCH    ;             
+| D2         DIODESCH    ;             
+| D3         ZENER       ;             
+| D4         ZENER       ;             
+| D5         ZENER       ;             
+| D6         ZENER       ;             
+| DGND1      CONN_1      ;             
+| DGND2      CONN_1      ;             
+| GND_I2C1   CONN_1      ;             
+| R1         NC          ;             
+| R2         0R          ;             
+| R3         1K          ;             
+| R4         1K          ;             
+| R5         2.7K        ;             
+| R6         2.7K        ;             
+| R8         NC          ;             
+| R12        NC          ;             
+| R14        NC          ;             
+| R15        150R        ;             
+| R16        150R        ;             
+| SCL1       CONN_1      ;             
+| SCLx1      CONN_1      ;             
+| SCLy1      CONN_1      ;             
+| SDA1       CONN_1      ;             
+| SDAx1      CONN_1      ;             
+| SDAy1      CONN_1      ;             
+| U1         PCA9600     ;             
+| VCC_I2C1   CONN_1      ;             
+#End Cmp
+
+#Cmp ( ordre = Valeur )
+| 0R           R2        ;             
+| 100nF        C1        ;             
+| 150R         R15       ;             
+| 150R         R16       ;             
+| 1K           R3        ;             
+| 1K           R4        ;             
+| 2.7K         R5        ;             
+| 2.7K         R6        ;             
+| CONN_1       12V1      ;             
+| CONN_1       5V1       ;             
+| CONN_1       DGND1     ;             
+| CONN_1       DGND2     ;             
+| CONN_1       GND_I2C1  ;             
+| CONN_1       SCL1      ;             
+| CONN_1       SCLx1     ;             
+| CONN_1       SCLy1     ;             
+| CONN_1       SDA1      ;             
+| CONN_1       SDAx1     ;             
+| CONN_1       SDAy1     ;             
+| CONN_1       VCC_I2C1  ;             
+| DIODESCH     D1        ;             
+| DIODESCH     D2        ;             
+| NC           R1        ;             
+| NC           R8        ;             
+| NC           R12       ;             
+| NC           R14       ;             
+| PCA9600      U1        ;             
+| ZENER        D3        ;             
+| ZENER        D4        ;             
+| ZENER        D5        ;             
+| ZENER        D6        ;             
+#End Cmp
+
+#End List

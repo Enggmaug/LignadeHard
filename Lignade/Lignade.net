@@ -1,0 +1,1550 @@
+# EESchema Netlist Version 1.1 created  jeu. 05 mai 2011 15:09:49 ICT
+(
+ ( /4D6C87F2/4DAE59A8 SM0603 C1 100nF
+  ( 1 DGND )
+  ( 2 +5V )
+ )
+ ( /4D6C8831/4D6E2C01 SM0603 C2 100nF
+  ( 1 DGND )
+  ( 2 VCC )
+ )
+ ( /4D6C8831/4D6E2BD0 SM0603 C3 100nF
+  ( 1 DGND )
+  ( 2 VCC )
+ )
+ ( /4D6C888F/4D6FB32D SM0603 C4 100nF
+  ( 1 +12V )
+  ( 2 /Alims/GND_IN )
+ )
+ ( /4D6C888F/4D6FB336 SM0805 C5 10uF
+  ( 1 +12V )
+  ( 2 /Alims/GND_IN )
+ )
+ ( /4D6C888F/4DAE65C9 SM0603 C6 100nF
+  ( 1 N-000203 )
+  ( 2 N-000196 )
+ )
+ ( /4D6C888F/4D6FB603 SM0603 C7 100nF
+  ( 1 +5V )
+  ( 2 /Alims/GND_IN )
+ )
+ ( /4D6C888F/4DAE65CA SM0805 C8 10uF
+  ( 1 N-000203 )
+  ( 2 N-000196 )
+ )
+ ( /4D6C888F/4D6FB602 SM0805 C9 10uF
+  ( 1 +5V )
+  ( 2 /Alims/GND_IN )
+ )
+ ( /4D6C888F/4D6FB68A SM0805 C10 10uF
+  ( 1 +5V )
+  ( 2 /Alims/GND_IN )
+ )
+ ( /4D6C888F/4D6FB6C7 SM0603 C11 100nF
+  ( 1 VCC )
+  ( 2 /Alims/GND_IN )
+ )
+ ( /4D6C888F/4D6FB6C8 SM0805 C12 10uF
+  ( 1 VCC )
+  ( 2 /Alims/GND_IN )
+ )
+ ( /4D70492F CONN1 CONN1 CONN-HIROSE-132_PTS
+  ( 1 ? )
+  ( 2 +5V )
+  ( 3 N-000168 )
+  ( 4 ? )
+  ( 5 N-000180 )
+  ( 6 ? )
+  ( 7 N-000079 )
+  ( 8 N-000179 )
+  ( 9 N-000080 )
+  ( 10 ? )
+  ( 11 DGND )
+  ( 12 DGND )
+  ( 13 N-000173 )
+  ( 14 ? )
+  ( 15 N-000081 )
+  ( 16 ? )
+  ( 17 N-000177 )
+  ( 18 ? )
+  ( 19 N-000082 )
+  ( 20 ? )
+  ( 21 N-000175 )
+  ( 22 ? )
+  ( 23 N-000065 )
+  ( 24 N-000006 )
+  ( 25 N-000019 )
+  ( 26 N-000170 )
+  ( 27 ? )
+  ( 28 ? )
+  ( 29 ? )
+  ( 30 ? )
+  ( 31 ? )
+  ( 32 ? )
+  ( 33 DGND )
+  ( 34 DGND )
+  ( 35 /MACAddr1 )
+  ( 36 ? )
+  ( 37 /MACAddr2 )
+  ( 38 N-000005 )
+  ( 39 /MACAddr3 )
+  ( 40 N-000004 )
+  ( 41 /MACAddr4 )
+  ( 42 N-000003 )
+  ( 43 VCC )
+  ( 44 N-000002 )
+  ( 45 ? )
+  ( 46 N-000001 )
+  ( 47 ? )
+  ( 48 ? )
+  ( 49 ? )
+  ( 50 ? )
+  ( 51 ? )
+  ( 52 ? )
+  ( 53 VCC )
+  ( 54 ? )
+  ( 55 DGND )
+  ( 56 DGND )
+  ( 57 VCC )
+  ( 58 ? )
+  ( 59 ? )
+  ( 60 ? )
+  ( 61 ? )
+  ( 62 N-000018 )
+  ( 63 ? )
+  ( 64 N-000017 )
+  ( 65 ? )
+  ( 66 N-000016 )
+  ( 67 ? )
+  ( 68 N-000012 )
+  ( 69 ? )
+  ( 70 N-000014 )
+  ( 71 N-000057 )
+  ( 72 N-000013 )
+  ( 73 N-000059 )
+  ( 74 /I2C/SDA )
+  ( 75 VCC )
+  ( 76 /I2C/SCL )
+  ( 77 DGND )
+  ( 78 DGND )
+  ( 79 ? )
+  ( 80 +5V )
+  ( 81 ? )
+  ( 82 +5V )
+  ( 83 ? )
+  ( 84 ? )
+  ( 85 ? )
+  ( 86 ? )
+  ( 87 ? )
+  ( 88 ? )
+  ( 89 ? )
+  ( 90 ? )
+  ( 91 ? )
+  ( 92 ? )
+  ( 93 ? )
+  ( 94 ? )
+  ( 95 ? )
+  ( 96 +5V )
+  ( 97 ? )
+  ( 98 +5V )
+  ( 99 DGND )
+  ( 100 DGND )
+  ( 101 N-000061 )
+  ( 102 ? )
+  ( 103 N-000063 )
+  ( 104 ? )
+  ( 105 N-000056 )
+  ( 106 ? )
+  ( 107 N-000071 )
+  ( 108 ? )
+  ( 109 ? )
+  ( 110 ? )
+  ( 111 ? )
+  ( 112 ? )
+  ( 113 ? )
+  ( 114 ? )
+  ( 115 ? )
+  ( 116 ? )
+  ( 117 ? )
+  ( 118 ? )
+  ( 119 ? )
+  ( 120 ? )
+  ( 121 DGND )
+  ( 122 DGND )
+  ( 123 ? )
+  ( 124 ? )
+  ( 125 ? )
+  ( 126 ? )
+  ( 127 N-000073 )
+  ( 128 N-000076 )
+  ( 129 N-000070 )
+  ( 130 ? )
+  ( 131 ? )
+  ( 132 N-000033 )
+ )
+ ( /4D6C8965/4DAE51F9 RJ45_1Port CONN2 RJ45_1PORT
+  ( 1 /I/O_Rel5 )
+  ( 2 /Connect6 )
+  ( 3 /I/O_Relays/I2 )
+  ( 4 /Connect7 )
+  ( 5 /Connect8 )
+  ( 6 /I/O_Relays/O1 )
+  ( 7 /Connect9 )
+  ( 8 /I/O_Rel10 )
+  ( 9 DGND )
+  ( 10 DGND )
+ )
+ ( /4D6C8965/4DAE5237 RJ45_1Port CONN3 RJ45_1PORT
+  ( 1 N-000197 )
+  ( 2 /Connect11 )
+  ( 3 N-000248 )
+  ( 4 /I2C/SDAy )
+  ( 5 /I2C/VCC_I2C )
+  ( 6 /Connect12 )
+  ( 7 ? )
+  ( 8 /Connect13 )
+  ( 9 DGND )
+  ( 10 DGND )
+ )
+ ( /4D6C8965/4DAE5233 RJ45_1Port CONN4 RJ45_1PORT
+  ( 1 N-000208 )
+  ( 2 /Connect11 )
+  ( 3 N-000250 )
+  ( 4 /I2C/SDAy )
+  ( 5 /I2C/VCC_I2C )
+  ( 6 /Connect12 )
+  ( 7 ? )
+  ( 8 /Connect13 )
+  ( 9 DGND )
+  ( 10 DGND )
+ )
+ ( /4D6C8965/4DAE5205 RJ45_1Port CONN5 RJ45_1PORT
+  ( 1 /Connect14 )
+  ( 2 /Connect15 )
+  ( 3 /Connect16 )
+  ( 4 /I/O_Rel17 )
+  ( 5 /Connect18 )
+  ( 6 /I/O_Relays/O3 )
+  ( 7 /Connect19 )
+  ( 8 /I/O_Relays/~O3 )
+  ( 9 DGND )
+  ( 10 DGND )
+ )
+ ( /4D6C8965/4DAE522F RJ45_1Port CONN6 RJ45_1PORT
+  ( 1 N-000198 )
+  ( 2 /Connect11 )
+  ( 3 N-000249 )
+  ( 4 /I2C/SDAy )
+  ( 5 /I2C/VCC_I2C )
+  ( 6 /Connect12 )
+  ( 7 ? )
+  ( 8 /Connect13 )
+  ( 9 DGND )
+  ( 10 DGND )
+ )
+ ( /4D6C8965/4DAE522A RJ45_1Port CONN7 RJ45_1PORT
+  ( 1 N-000211 )
+  ( 2 /Connect11 )
+  ( 3 N-000247 )
+  ( 4 /I2C/SDAy )
+  ( 5 /I2C/VCC_I2C )
+  ( 6 /Connect12 )
+  ( 7 ? )
+  ( 8 /Connect13 )
+  ( 9 DGND )
+  ( 10 DGND )
+ )
+ ( /4D6C8965/4DAE520A RJ45_1Port CONN8 RJ45_1PORT
+  ( 1 /I/O_Relays/~O6 )
+  ( 2 /Connect20 )
+  ( 3 /Connect21 )
+  ( 4 /I/O_Rel22 )
+  ( 5 /I/O_Relays/I5 )
+  ( 6 /I/O_Rel23 )
+  ( 7 /Connect24 )
+  ( 8 /I/O_Rel25 )
+  ( 9 DGND )
+  ( 10 DGND )
+ )
+ ( /4D6C8965/4DAE5222 RJ45_1Port CONN9 RJ45_1PORT
+  ( 1 N-000199 )
+  ( 2 /Connect11 )
+  ( 3 N-000244 )
+  ( 4 /I2C/SDAy )
+  ( 5 /I2C/VCC_I2C )
+  ( 6 /Connect12 )
+  ( 7 ? )
+  ( 8 /Connect13 )
+  ( 9 DGND )
+  ( 10 DGND )
+ )
+ ( /4D6C8965/4DAE5226 RJ45_1Port CONN10 RJ45_1PORT
+  ( 1 N-000210 )
+  ( 2 /Connect11 )
+  ( 3 N-000251 )
+  ( 4 /I2C/SDAy )
+  ( 5 /I2C/VCC_I2C )
+  ( 6 /Connect12 )
+  ( 7 ? )
+  ( 8 /Connect13 )
+  ( 9 DGND )
+  ( 10 DGND )
+ )
+ ( /4D6C8965/4DAE521C RJ45_1Port CONN11 RJ45_1PORT
+  ( 1 N-000195 )
+  ( 2 /Connect11 )
+  ( 3 N-000245 )
+  ( 4 /I2C/SDAy )
+  ( 5 /I2C/VCC_I2C )
+  ( 6 /Connect12 )
+  ( 7 ? )
+  ( 8 /Connect13 )
+  ( 9 DGND )
+  ( 10 DGND )
+ )
+ ( /4D6C8965/4DAE5210 RJ45_1Port CONN12 RJ45_1PORT
+  ( 1 /I/O_Relays/~O8 )
+  ( 2 /I/O_Rel26 )
+  ( 3 /Connect27 )
+  ( 4 /I/O_Rel28 )
+  ( 5 /I/O_Relays/I7 )
+  ( 6 /I/O_Relays/O7 )
+  ( 7 /I/O_Rel29 )
+  ( 8 /I/O_Relays/~O7 )
+  ( 9 DGND )
+  ( 10 DGND )
+ )
+ ( /4D6C8965/4DAE5216 RJ45_1Port CONN13 RJ45_1PORT
+  ( 1 N-000209 )
+  ( 2 /Connect11 )
+  ( 3 N-000246 )
+  ( 4 /I2C/SDAy )
+  ( 5 /I2C/VCC_I2C )
+  ( 6 /Connect12 )
+  ( 7 ? )
+  ( 8 /Connect13 )
+  ( 9 DGND )
+  ( 10 DGND )
+ )
+ ( /4D6C888F/4D6FB2F4 SOT23EBC D1 DIODE
+  ( 1 /Alims/12V_IN )
+  ( 2 +12V )
+ )
+ ( /4D6C888F/4D7591D2 SM1210 D2 LED
+  ( 1 VCC )
+  ( 2 N-000235 )
+ )
+ ( /4D6C888F/4D7591C3 SM1210 D3 LED
+  ( 1 +5V )
+  ( 2 N-000234 )
+ )
+ ( /4D74EC83 Alim K1 CONN_3
+  ( 1 /Alims/12V_IN )
+  ( 2 /Alims/GND_IN )
+  ( 3 ? )
+ )
+ ( /4D6C87F2/4D70588C Relay K2 RELAY_1RT
+  ( 1 ? )
+  ( 2 +12V )
+  ( 3 ? )
+  ( 4 N-000201 )
+  ( 5 N-000196 )
+ )
+ ( /4D6C87F2/4D705924 Relay K3 RELAY_1RT
+  ( 1 ? )
+  ( 2 +12V )
+  ( 3 ? )
+  ( 4 N-000206 )
+  ( 5 N-000196 )
+ )
+ ( /4D6C87F2/4D705969 Relay K4 RELAY_1RT
+  ( 1 ? )
+  ( 2 +12V )
+  ( 3 ? )
+  ( 4 N-000189 )
+  ( 5 N-000196 )
+ )
+ ( /4D6C87F2/4D7059A2 Relay K5 RELAY_1RT
+  ( 1 ? )
+  ( 2 +12V )
+  ( 3 ? )
+  ( 4 N-000188 )
+  ( 5 N-000196 )
+ )
+ ( /4D6C87F2/4D705918 Relay K6 RELAY_1RT
+  ( 1 ? )
+  ( 2 +12V )
+  ( 3 ? )
+  ( 4 N-000202 )
+  ( 5 N-000196 )
+ )
+ ( /4D6C87F2/4D705954 Relay K7 RELAY_1RT
+  ( 1 ? )
+  ( 2 +12V )
+  ( 3 ? )
+  ( 4 N-000191 )
+  ( 5 N-000196 )
+ )
+ ( /4D6C87F2/4D705982 Relay K8 RELAY_1RT
+  ( 1 ? )
+  ( 2 +12V )
+  ( 3 ? )
+  ( 4 N-000205 )
+  ( 5 N-000196 )
+ )
+ ( /4D6C87F2/4DAE4A3D Relay K9 RELAY_1RT
+  ( 1 ? )
+  ( 2 +12V )
+  ( 3 ? )
+  ( 4 N-000207 )
+  ( 5 N-000196 )
+ )
+ ( /4D6C8831/4D6E23B1/4D704E61 Relay K10 RELAY_1RT
+  ( 1 /I/O_Rel10 )
+  ( 2 /I/O_Relays/O1 )
+  ( 3 /Connect9 )
+  ( 4 N-000259 )
+  ( 5 N-000196 )
+ )
+ ( /4D6C8831/4D6E23B1/4D704E68 Relay K11 RELAY_1RT
+  ( 1 /Connect6 )
+  ( 2 /I/O_Rel5 )
+  ( 3 /Connect7 )
+  ( 4 N-000255 )
+  ( 5 N-000196 )
+ )
+ ( /4D6C8831/4D6E23B1/4D704E6B Relay K12 RELAY_1RT
+  ( 1 /I/O_Relays/~O3 )
+  ( 2 /I/O_Relays/O3 )
+  ( 3 /Connect19 )
+  ( 4 N-000252 )
+  ( 5 N-000196 )
+ )
+ ( /4D6C8831/4D6E23B1/4D704E6F Relay K13 RELAY_1RT
+  ( 1 /Connect15 )
+  ( 2 /Connect14 )
+  ( 3 /I/O_Rel17 )
+  ( 4 N-000253 )
+  ( 5 N-000196 )
+ )
+ ( /4D6C8831/4D6E23B1/4D704E77 Relay K14 RELAY_1RT
+  ( 1 /I/O_Rel25 )
+  ( 2 /I/O_Rel23 )
+  ( 3 /Connect24 )
+  ( 4 N-000257 )
+  ( 5 N-000196 )
+ )
+ ( /4D6C8831/4D6E23B1/4D704E7D Relay K15 RELAY_1RT
+  ( 1 /I/O_Relays/~O6 )
+  ( 2 /Connect20 )
+  ( 3 /I/O_Rel22 )
+  ( 4 N-000258 )
+  ( 5 N-000196 )
+ )
+ ( /4D6C8831/4D6E23B1/4D704E81 Relay K16 RELAY_1RT
+  ( 1 /I/O_Relays/~O7 )
+  ( 2 /I/O_Relays/O7 )
+  ( 3 /I/O_Rel29 )
+  ( 4 N-000256 )
+  ( 5 N-000196 )
+ )
+ ( /4D6C8831/4D6E23B1/4D704E87 Relay K17 RELAY_1RT
+  ( 1 /I/O_Relays/~O8 )
+  ( 2 /I/O_Rel26 )
+  ( 3 /I/O_Rel28 )
+  ( 4 N-000254 )
+  ( 5 N-000196 )
+ )
+ ( /4D6C888F/4DAE66B1 SM0805 L1 10uH
+  ( 1 /Alims/GND_IN )
+  ( 2 DGND )
+ )
+ ( /4D6C888F/4DAE66D5 SM0805 L3 10uH
+  ( 1 N-000196 )
+  ( 2 DGND )
+ )
+ ( /4D6C87F2/4DAE4A85 Module_I2C M1 MODULE_I2C
+  ( 1 +5V )
+  ( 2 +12V )
+  ( 3 /I2C/SCL )
+  ( 4 /Connect13 )
+  ( 5 /Connect12 )
+  ( 6 DGND )
+  ( 7 /I2C/GND_I2C )
+  ( 8 /I2C/SDAy )
+  ( 9 /Connect11 )
+  ( 10 /I2C/VCC_I2C )
+  ( 11 /I2C/SDA )
+  ( 12 DGND )
+ )
+ ( /4D6D9D1B PtTest P1 CONN_1
+  ( 1 N-000079 )
+ )
+ ( /4D6D9D19 PtTest P2 CONN_1
+  ( 1 N-000080 )
+ )
+ ( /4D6D9D17 PtTest P3 CONN_1
+  ( 1 N-000173 )
+ )
+ ( /4D6D9D15 PtTest P4 CONN_1
+  ( 1 N-000081 )
+ )
+ ( /4D6D9D12 PtTest P5 CONN_1
+  ( 1 N-000177 )
+ )
+ ( /4D6D9D0E PtTest P6 CONN_1
+  ( 1 N-000082 )
+ )
+ ( /4D6D9D08 PtTest P7 CONN_1
+  ( 1 N-000175 )
+ )
+ ( /4D6D9CD4 PtTest P8 CONN_1
+  ( 1 N-000065 )
+ )
+ ( /4D6C87F2/4D6DA022 PtTest P9 CONN_1
+  ( 1 N-000021 )
+ )
+ ( /4D6C87F2/4D6DA029 PtTest P10 CONN_1
+  ( 1 N-000015 )
+ )
+ ( /4D6C87F2/4D6DA02C PtTest P11 CONN_1
+  ( 1 N-000011 )
+ )
+ ( /4D6C87F2/4D6DA02F PtTest P12 CONN_1
+  ( 1 N-000010 )
+ )
+ ( /4D6C87F2/4D6DA033 PtTest P13 CONN_1
+  ( 1 N-000009 )
+ )
+ ( /4D6C87F2/4D6DA038 PtTest P14 CONN_1
+  ( 1 N-000007 )
+ )
+ ( /4D6C87F2/4D6DA03B PtTest P15 CONN_1
+  ( 1 N-000008 )
+ )
+ ( /4D6C87F2/4DAE4CBA PtTest P16 CONN_1
+  ( 1 N-000169 )
+ )
+ ( /4D6C8831/4D6E2FA6 PtTest P17 CONN_1
+  ( 1 N-000058 )
+ )
+ ( /4D6C8831/4D6E2FB1 PtTest P18 CONN_1
+  ( 1 N-000062 )
+ )
+ ( /4D6C8831/4D6E2FC6 PtTest P19 CONN_1
+  ( 1 N-000066 )
+ )
+ ( /4D6C8831/4D6E2FC9 PtTest P20 CONN_1
+  ( 1 N-000068 )
+ )
+ ( /4D6C8831/4D6E2FAE PtTest P21 CONN_1
+  ( 1 N-000060 )
+ )
+ ( /4D6C8831/4D6E2FBD PtTest P22 CONN_1
+  ( 1 N-000064 )
+ )
+ ( /4D6C8831/4D6E2FC3 PtTest P23 CONN_1
+  ( 1 N-000067 )
+ )
+ ( /4D6C8831/4D6E2FCB PtTest P24 CONN_1
+  ( 1 N-000069 )
+ )
+ ( /4D6C888F/4D6FB736 PtTest P25 CONN_1
+  ( 1 +5V )
+ )
+ ( /4D6C888F/4D6FB724 PtTest P26 CONN_1
+  ( 1 VCC )
+ )
+ ( /4D6C888F/4D6FB72D PtTest P27 CONN_1
+  ( 1 /Alims/GND_IN )
+ )
+ ( /4D6C8831/4D6E23B1/4D6E2545 PtTest P28 CONN_1
+  ( 1 N-000020 )
+ )
+ ( /4D6C8831/4D6E23B1/4D6E2550 PtTest P29 CONN_1
+  ( 1 N-000028 )
+ )
+ ( /4D6C8831/4D6E23B1/4D6E2555 PtTest P30 CONN_1
+  ( 1 N-000027 )
+ )
+ ( /4D6C8831/4D6E23B1/4D6E2558 PtTest P31 CONN_1
+  ( 1 N-000026 )
+ )
+ ( /4D6C8831/4D6E23B1/4D6E2CEC PtTest P32 CONN_1
+  ( 1 N-000025 )
+ )
+ ( /4D6C8831/4D6E23B1/4D6E2CEB PtTest P33 CONN_1
+  ( 1 N-000024 )
+ )
+ ( /4D6C8831/4D6E23B1/4D6E2CEA PtTest P34 CONN_1
+  ( 1 N-000023 )
+ )
+ ( /4D6C8831/4D6E23B1/4D6E2CE9 PtTest P35 CONN_1
+  ( 1 N-000022 )
+ )
+ ( /4D6C8831/4DAE4E81 SOT23EBC Q1 PNP
+  ( 1 +5V )
+  ( 2 N-000222 )
+  ( 3 N-000229 )
+ )
+ ( /4D6C8831/4DAE4F31 SOT23EBC Q2 PNP
+  ( 1 +5V )
+  ( 2 N-000223 )
+  ( 3 N-000226 )
+ )
+ ( /4D6C8831/4DAE4F39 SOT23EBC Q3 PNP
+  ( 1 +5V )
+  ( 2 N-000225 )
+  ( 3 N-000230 )
+ )
+ ( /4D6C8831/4DAE4F4C SOT23EBC Q4 PNP
+  ( 1 +5V )
+  ( 2 N-000224 )
+  ( 3 N-000227 )
+ )
+ ( /4D6C8831/4DAE4F73 SOT23EBC Q5 PNP
+  ( 1 +5V )
+  ( 2 N-000233 )
+  ( 3 N-000218 )
+ )
+ ( /4D6C8831/4DAE4F68 SOT23EBC Q6 PNP
+  ( 1 +5V )
+  ( 2 N-000221 )
+  ( 3 N-000231 )
+ )
+ ( /4D6C8831/4DAE4F67 SOT23EBC Q7 PNP
+  ( 1 +5V )
+  ( 2 N-000232 )
+  ( 3 N-000228 )
+ )
+ ( /4D6C8831/4DAE4F5C SOT23EBC Q8 PNP
+  ( 1 +5V )
+  ( 2 N-000219 )
+  ( 3 N-000220 )
+ )
+ ( /4D6D96A4 SM0805 R1 0R
+  ( 1 N-000057 )
+  ( 2 N-000058 )
+ )
+ ( /4D6D96A1 SM0805 R2 0R
+  ( 1 N-000059 )
+  ( 2 N-000060 )
+ )
+ ( /4D6D969D SM0805 R3 0R
+  ( 1 N-000061 )
+  ( 2 N-000062 )
+ )
+ ( /4D6D969A SM0805 R4 0R
+  ( 1 N-000063 )
+  ( 2 N-000064 )
+ )
+ ( /4D6D9697 SM0805 R5 0R
+  ( 1 N-000056 )
+  ( 2 N-000066 )
+ )
+ ( /4D6D9693 SM0805 R6 0R
+  ( 1 N-000071 )
+  ( 2 N-000067 )
+ )
+ ( /4D6D968F SM0805 R7 0R
+  ( 1 N-000073 )
+  ( 2 N-000068 )
+ )
+ ( /4D6D9685 SM0805 R8 0R
+  ( 1 N-000070 )
+  ( 2 N-000069 )
+ )
+ ( /4D6D9527 SM0805 R9 0R
+  ( 1 N-000019 )
+  ( 2 N-000007 )
+ )
+ ( /4D6D94B4 SM0805 R10 0R
+  ( 1 N-000008 )
+  ( 2 N-000006 )
+ )
+ ( /4D6D950B SM0805 R11 0R
+  ( 1 N-000009 )
+  ( 2 N-000005 )
+ )
+ ( /4D6D9514 SM0805 R12 0R
+  ( 1 N-000010 )
+  ( 2 N-000004 )
+ )
+ ( /4D6D9519 SM0805 R13 0R
+  ( 1 N-000011 )
+  ( 2 N-000003 )
+ )
+ ( /4D6D951C SM0805 R14 0R
+  ( 1 N-000015 )
+  ( 2 N-000002 )
+ )
+ ( /4D6D951F SM0805 R15 0R
+  ( 1 N-000021 )
+  ( 2 N-000001 )
+ )
+ ( /4D6D95BC SM0805 R16 0R
+  ( 1 N-000024 )
+  ( 2 N-000018 )
+ )
+ ( /4D6D95C5 SM0805 R17 0R
+  ( 1 N-000025 )
+  ( 2 N-000017 )
+ )
+ ( /4D6D95CA SM0805 R18 0R
+  ( 1 N-000026 )
+  ( 2 N-000016 )
+ )
+ ( /4D6D95CE SM0805 R19 0R
+  ( 1 N-000027 )
+  ( 2 N-000012 )
+ )
+ ( /4D6D95D2 SM0805 R20 0R
+  ( 1 N-000028 )
+  ( 2 N-000014 )
+ )
+ ( /4D6D95D6 SM0805 R21 0R
+  ( 1 N-000020 )
+  ( 2 N-000013 )
+ )
+ ( /4D6D9634 SM0805 R22 0R
+  ( 1 N-000023 )
+  ( 2 N-000076 )
+ )
+ ( /4D6D963B SM0805 R23 0R
+  ( 1 N-000022 )
+  ( 2 N-000033 )
+ )
+ ( /4DAE63F4 SM0805 R24 0R
+  ( 1 /I2C/Sel_I2C_2 )
+  ( 2 N-000180 )
+ )
+ ( /4DAE63EE SM0805 R25 0R
+  ( 1 /I2C/Sel_I2C_0 )
+  ( 2 N-000179 )
+ )
+ ( /4DAE63E2 SM0805 R26 0R
+  ( 1 /I2C/Sel_I2C_1 )
+  ( 2 N-000168 )
+ )
+ ( /4D6C8831/4DAE4E9F SM0805 R27 220R
+  ( 1 N-000233 )
+  ( 2 /Connect8 )
+ )
+ ( /4D6C8831/4DAE4F30 SM0805 R28 220R
+  ( 1 N-000222 )
+  ( 2 /Connect18 )
+ )
+ ( /4D6C8831/4DAE4F3A SM0805 R29 220R
+  ( 1 N-000225 )
+  ( 2 /I/O_Relays/I5 )
+ )
+ ( /4D6C8831/4DAE4F4B SM0805 R30 220R
+  ( 1 N-000232 )
+  ( 2 /I/O_Relays/I7 )
+ )
+ ( /4D6C8831/4DAE4EAC SM0805 R31 39K
+  ( 1 +5V )
+  ( 2 N-000222 )
+ )
+ ( /4D6C8831/4DAE4F2F SM0805 R32 39K
+  ( 1 +5V )
+  ( 2 N-000223 )
+ )
+ ( /4D6C8831/4DAE4F3B SM0805 R33 39K
+  ( 1 +5V )
+  ( 2 N-000225 )
+ )
+ ( /4D6C8831/4DAE4F4A SM0805 R34 39K
+  ( 1 +5V )
+  ( 2 N-000224 )
+ )
+ ( /4D6C8831/4DAE4EE6 SM0805 R35 330R
+  ( 1 N-000229 )
+  ( 2 DGND )
+ )
+ ( /4D6C8831/4DAE4F2E SM0805 R36 330R
+  ( 1 N-000226 )
+  ( 2 DGND )
+ )
+ ( /4D6C8831/4DAE4F3C SM0805 R37 330R
+  ( 1 N-000230 )
+  ( 2 DGND )
+ )
+ ( /4D6C8831/4DAE4F49 SM0805 R38 330R
+  ( 1 N-000227 )
+  ( 2 DGND )
+ )
+ ( /4D6C8831/4DAE4F72 SM0805 R39 220R
+  ( 1 N-000221 )
+  ( 2 /I/O_Relays/I2 )
+ )
+ ( /4D6C8831/4DAE4F69 SM0805 R40 220R
+  ( 1 N-000223 )
+  ( 2 /Connect16 )
+ )
+ ( /4D6C8831/4DAE4F66 SM0805 R41 220R
+  ( 1 N-000224 )
+  ( 2 /Connect21 )
+ )
+ ( /4D6C8831/4DAE4F5D SM0805 R42 220R
+  ( 1 N-000219 )
+  ( 2 /Connect27 )
+ )
+ ( /4D6C8831/4DAE4F71 SM0805 R43 39K
+  ( 1 +5V )
+  ( 2 N-000233 )
+ )
+ ( /4D6C8831/4DAE4F6A SM0805 R44 39K
+  ( 1 +5V )
+  ( 2 N-000221 )
+ )
+ ( /4D6C8831/4DAE4F65 SM0805 R45 39K
+  ( 1 +5V )
+  ( 2 N-000232 )
+ )
+ ( /4D6C8831/4DAE4F5E SM0805 R46 39K
+  ( 1 +5V )
+  ( 2 N-000219 )
+ )
+ ( /4D6C8831/4DAE4F70 SM0805 R47 330R
+  ( 1 N-000218 )
+  ( 2 DGND )
+ )
+ ( /4D6C8831/4DAE4F6B SM0805 R48 330R
+  ( 1 N-000231 )
+  ( 2 DGND )
+ )
+ ( /4D6C8831/4DAE4F64 SM0805 R49 330R
+  ( 1 N-000228 )
+  ( 2 DGND )
+ )
+ ( /4D6C8831/4DAE4F5F SM0805 R50 330R
+  ( 1 N-000220 )
+  ( 2 DGND )
+ )
+ ( /4D6C888F/4D838844 SM1206 R51 0R
+  ( 1 /Alims/GND_IN )
+  ( 2 DGND )
+ )
+ ( /4D6C888F/4DAE66D7 SM1206 R52 0R
+  ( 1 N-000196 )
+  ( 2 DGND )
+ )
+ ( /4D6C888F/4D759C24 SM0805 R53 330R
+  ( 1 N-000235 )
+  ( 2 /Alims/GND_IN )
+ )
+ ( /4D6C888F/4D759C2A SM0805 R54 470R
+  ( 1 N-000234 )
+  ( 2 /Alims/GND_IN )
+ )
+ ( /4D96A8D4/4D96A928 SM0805 R55 0R
+  ( 1 VCC )
+  ( 2 /MACAddr1 )
+ )
+ ( /4D96A8D4/4D96A92E SM0805 R56 0R
+  ( 1 /MACAddr1 )
+  ( 2 DGND )
+ )
+ ( /4D96A8D4/4D96A967 SM0805 R57 0R
+  ( 1 VCC )
+  ( 2 /MACAddr3 )
+ )
+ ( /4D96A8D4/4D96A966 SM0805 R58 0R
+  ( 1 /MACAddr3 )
+  ( 2 DGND )
+ )
+ ( /4D96A8D4/4D96A97D SM0805 R59 0R
+  ( 1 VCC )
+  ( 2 /MACAddr2 )
+ )
+ ( /4D96A8D4/4D96A97C SM0805 R60 0R
+  ( 1 /MACAddr2 )
+  ( 2 DGND )
+ )
+ ( /4D96A8D4/4D96A96D SM0805 R61 0R
+  ( 1 VCC )
+  ( 2 /MACAddr4 )
+ )
+ ( /4D96A8D4/4D96A96E SM0805 R62 0R
+  ( 1 /MACAddr4 )
+  ( 2 DGND )
+ )
+ ( /4D6C8965/4DB13D1B SM1206 R63 0R
+  ( 1 /I2C/GND_I2C )
+  ( 2 N-000248 )
+ )
+ ( /4D6C8965/4DB13D21 SM1206 R64 0R
+  ( 1 /I2C/GND_I2C )
+  ( 2 N-000250 )
+ )
+ ( /4D6C8965/4DB13D28 SM1206 R65 0R
+  ( 1 /I2C/GND_I2C )
+  ( 2 N-000249 )
+ )
+ ( /4D6C8965/4DB13D3A SM1206 R66 0R
+  ( 1 /I2C/GND_I2C )
+  ( 2 N-000247 )
+ )
+ ( /4D6C8965/4DB13D4E SM1206 R67 0R
+  ( 1 /I2C/GND_I2C )
+  ( 2 N-000244 )
+ )
+ ( /4D6C8965/4DB13D42 SM1206 R68 0R
+  ( 1 /I2C/GND_I2C )
+  ( 2 N-000251 )
+ )
+ ( /4D6C8965/4DB13D47 SM1206 R69 0R
+  ( 1 /I2C/GND_I2C )
+  ( 2 N-000245 )
+ )
+ ( /4D6C8965/4DB13D49 SM1206 R70 0R
+  ( 1 /I2C/GND_I2C )
+  ( 2 N-000246 )
+ )
+ ( /4DB15D37 SM0805 R71 0R
+  ( 1 N-000169 )
+  ( 2 N-000170 )
+ )
+ ( /4D6C87F2/4D704A44 SO14N U1 DS3680
+  ( 1 N-000021 )
+  ( 2 DGND )
+  ( 3 N-000015 )
+  ( 4 DGND )
+  ( 5 N-000011 )
+  ( 6 DGND )
+  ( 7 N-000010 )
+  ( 8 DGND )
+  ( 9 N-000203 )
+  ( 10 N-000206 )
+  ( 11 N-000188 )
+  ( 12 N-000207 )
+  ( 13 N-000191 )
+  ( 14 N-000196 )
+ )
+ ( /4D6C87F2/4D704A4A SO14N U2 DS3680
+  ( 1 N-000009 )
+  ( 2 DGND )
+  ( 3 N-000007 )
+  ( 4 DGND )
+  ( 5 N-000008 )
+  ( 6 DGND )
+  ( 7 N-000169 )
+  ( 8 DGND )
+  ( 9 N-000203 )
+  ( 10 N-000202 )
+  ( 11 N-000201 )
+  ( 12 N-000205 )
+  ( 13 N-000189 )
+  ( 14 N-000196 )
+ )
+ ( /4D6C87F2/4DAE9A90 SO16N U3 74HCT138
+  ( 1 /I2C/Sel_I2C_0 )
+  ( 2 /I2C/Sel_I2C_1 )
+  ( 3 /I2C/Sel_I2C_2 )
+  ( 4 +5V )
+  ( 5 DGND )
+  ( 6 DGND )
+  ( 7 N-000197 )
+  ( 8 DGND )
+  ( 9 N-000208 )
+  ( 10 N-000198 )
+  ( 11 N-000211 )
+  ( 12 N-000199 )
+  ( 13 N-000210 )
+  ( 14 N-000195 )
+  ( 15 N-000209 )
+  ( 16 +5V )
+ )
+ ( /4D6C8831/4D7049BB SO14N U4 74LVC132
+  ( 1 N-000229 )
+  ( 2 N-000229 )
+  ( 3 N-000064 )
+  ( 4 N-000226 )
+  ( 5 N-000226 )
+  ( 6 N-000062 )
+  ( 7 DGND )
+  ( 8 N-000067 )
+  ( 9 N-000230 )
+  ( 10 N-000230 )
+  ( 11 N-000066 )
+  ( 12 N-000227 )
+  ( 13 N-000227 )
+  ( 14 VCC )
+ )
+ ( /4D6C8831/4D7049C1 SO14N U5 74LVC132
+  ( 1 N-000218 )
+  ( 2 N-000218 )
+  ( 3 N-000060 )
+  ( 4 N-000231 )
+  ( 5 N-000231 )
+  ( 6 N-000058 )
+  ( 7 DGND )
+  ( 8 N-000069 )
+  ( 9 N-000228 )
+  ( 10 N-000228 )
+  ( 11 N-000068 )
+  ( 12 N-000220 )
+  ( 13 N-000220 )
+  ( 14 VCC )
+ )
+ ( /4D6C888F/4DAE65C6 SOT223 U6 LM1117
+  ( 1 N-000196 )
+  ( 2 N-000203 )
+  ( 3 +12V )
+ )
+ ( /4D6C888F/4D704AAA SOT223 U7 LM1117
+  ( 1 /Alims/GND_IN )
+  ( 2 +5V )
+  ( 3 +12V )
+ )
+ ( /4D6C888F/4D704AB4 SOT223 U8 TC1262-3.3V
+  ( 1 +5V )
+  ( 2 /Alims/GND_IN )
+  ( 3 VCC )
+ )
+ ( /4D6C8831/4D6E23B1/4D704A1F SO14N U9 DS3680
+  ( 1 N-000027 )
+  ( 2 DGND )
+  ( 3 N-000026 )
+  ( 4 DGND )
+  ( 5 N-000025 )
+  ( 6 DGND )
+  ( 7 N-000024 )
+  ( 8 DGND )
+  ( 9 N-000203 )
+  ( 10 N-000255 )
+  ( 11 N-000259 )
+  ( 12 N-000253 )
+  ( 13 N-000252 )
+  ( 14 N-000196 )
+ )
+ ( /4D6C8831/4D6E23B1/4D704A24 SO14N U10 DS3680
+  ( 1 N-000022 )
+  ( 2 DGND )
+  ( 3 N-000023 )
+  ( 4 DGND )
+  ( 5 N-000020 )
+  ( 6 DGND )
+  ( 7 N-000028 )
+  ( 8 DGND )
+  ( 9 N-000203 )
+  ( 10 N-000258 )
+  ( 11 N-000257 )
+  ( 12 N-000254 )
+  ( 13 N-000256 )
+  ( 14 N-000196 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R20
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R21
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R22
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R23
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R24
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R25
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R26
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R27
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R28
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R29
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R30
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R31
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R32
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R33
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R34
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R35
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R36
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R37
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R38
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R39
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R40
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R41
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R42
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R43
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R44
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R45
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R46
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R47
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R48
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R49
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R50
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R51
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R52
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R53
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R54
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R55
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R56
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R57
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R58
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R59
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R60
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R61
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R62
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R63
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R64
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R65
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R66
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R67
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R68
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R69
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R70
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R71
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$endfootprintlist
+}

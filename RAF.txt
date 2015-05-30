@@ -1,0 +1,52 @@
+**********************************************************************************
+*                               Carte Satellite                                  *
+**********************************************************************************
+
+127- Verifier l'empreinte du RJ45. 
+
+129- Refaire les plans de masse.
+
+129- Verifier que chaque composant a sa bonne empreinte.
+
+134- Voir les tailles de pistes pour chaque type de piste.
+
+136- Mettre un connecteur d'alim pour le cas ou on alimenterai par une alim externe... voir pour le controle de reset...
+
+
+**********************************************************************************
+*                                Carte Lignade                                   *
+**********************************************************************************
+
+127- Voir le pinning des RJ45 a LED. Brancher les LEDs... Voir comment.
+
+134- Verifier que chaque composant a sa bonne empreinte.
+
+134- Voir les tailles de pistes pour chaque type de piste.
+
+135- Revoir les nets associes aux zones.
+
+135- Corriger les erreurs de validation.
+
+
+**********************************************************************************
+*                              Module Capteurs                                   *
+**********************************************************************************
+127- Verifier que le pinning correspond bien
+
+
+**********************************************************************************
+*                             Module I2C PCA9600                                 *
+**********************************************************************************
+127- Verifier que le pinning correspond bien
+
+
+**********************************************************************************
+*                             Module I2C PCF82B96                                *
+**********************************************************************************
+127- Verifier que le pinning correspond bien
+
+139- Verifier que chaque composant a sa bonne empreinte.
+
+139- Voir les tailles de pistes pour chaque type de piste.
+
+

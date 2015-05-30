@@ -1,0 +1,302 @@
+EESchema Schematic File Version 2  date ven. 13 mai 2011 16:28:23 ICT
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Lignade
+LIBS:i2c
+LIBS:PlaqueEssai-cache
+EELAYER 24  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 4 10
+Title ""
+Date "13 may 2011"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	1800 4200 2350 4200
+Wire Wire Line
+	2100 1050 2200 1050
+Wire Wire Line
+	2100 1250 2200 1250
+Wire Wire Line
+	2200 1650 2200 1550
+Wire Wire Line
+	2200 1650 2100 1650
+Wire Wire Line
+	2100 2050 2200 2050
+Wire Wire Line
+	2100 2450 2200 2450
+Connection ~ 7150 4050
+Wire Wire Line
+	6550 4400 6400 4400
+Wire Wire Line
+	6550 4600 6400 4600
+Connection ~ 7150 5300
+Wire Wire Line
+	7150 5300 6400 5300
+Connection ~ 6450 4950
+Wire Wire Line
+	6450 4950 6400 4950
+Wire Wire Line
+	7250 4050 7150 4050
+Wire Wire Line
+	7150 5200 7150 5400
+Wire Wire Line
+	2250 1950 2200 1950
+Wire Wire Line
+	2200 1950 2200 2050
+Wire Wire Line
+	2200 1550 2250 1550
+Wire Wire Line
+	2250 1150 2200 1150
+Wire Wire Line
+	2200 1150 2200 1250
+Wire Wire Line
+	2200 1050 2200 950 
+Wire Wire Line
+	2200 950  2250 950 
+Wire Wire Line
+	2200 1350 2200 1450
+Wire Wire Line
+	2200 1350 2250 1350
+Wire Wire Line
+	2200 1750 2200 1850
+Wire Wire Line
+	2200 1750 2250 1750
+Wire Wire Line
+	2200 2150 2200 2250
+Wire Wire Line
+	2200 2150 2250 2150
+Wire Wire Line
+	2200 2450 2200 2350
+Wire Wire Line
+	2200 2350 2250 2350
+Wire Wire Line
+	7950 4100 7950 4050
+Wire Wire Line
+	7950 4050 7650 4050
+Wire Wire Line
+	7750 5100 8050 5100
+Wire Wire Line
+	6550 5000 6450 5000
+Wire Wire Line
+	6450 5000 6450 4900
+Wire Wire Line
+	6450 4900 6550 4900
+Wire Wire Line
+	6550 4800 6450 4800
+Wire Wire Line
+	6450 4800 6450 4700
+Wire Wire Line
+	6400 4500 6550 4500
+Wire Wire Line
+	6400 4950 6400 5300
+Wire Wire Line
+	7150 4200 7150 3900
+Wire Wire Line
+	2200 2250 2100 2250
+Wire Wire Line
+	2200 1850 2100 1850
+Wire Wire Line
+	2200 1450 2100 1450
+Wire Wire Line
+	2350 3950 1800 3950
+Text HLabel 2350 4200 2    60   BiDi ~ 0
+SCL_Out
+Text HLabel 2350 3950 2    60   BiDi ~ 0
+SDA_Out
+Text HLabel 1800 4200 0    60   BiDi ~ 0
+SCL_In
+Text HLabel 1800 3950 0    60   BiDi ~ 0
+SDA_In
+NoConn ~ 7750 4400
+NoConn ~ 7750 4500
+NoConn ~ 7750 4600
+NoConn ~ 7750 4700
+NoConn ~ 7750 4800
+NoConn ~ 7750 4900
+NoConn ~ 7750 5000
+$Comp
+L 74HCT138 U1
+U 1 1 4DAE9A90
+P 7150 4700
+F 0 "U1" H 7100 4800 60  0000 C CNN
+F 1 "74HCT138" H 7150 4650 60  0000 C CNN
+	1    7150 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR029
+U 1 1 4DAE86A4
+P 7150 3900
+F 0 "#PWR029" H 7150 3990 20  0001 C CNN
+F 1 "+5V" H 7150 3990 30  0000 C CNN
+	1    7150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR030
+U 1 1 4DAE5A5D
+P 6450 4700
+F 0 "#PWR030" H 6450 4790 20  0001 C CNN
+F 1 "+5V" H 6450 4790 30  0000 C CNN
+	1    6450 4700
+	1    0    0    -1  
+$EndComp
+Text HLabel 6400 4600 0    60   BiDi ~ 0
+Sel_I2C_2
+Text HLabel 6400 4500 0    60   BiDi ~ 0
+Sel_I2C_1
+Text HLabel 6400 4400 0    60   BiDi ~ 0
+Sel_I2C_0
+Text GLabel 8050 5100 2    60   Output ~ 0
+SEL_I2C
+$Comp
+L DGND #PWR21
+U 1 1 4DAE59BB
+P 7950 4100
+F 0 "#PWR21" H 7950 4100 40  0001 C CNN
+F 1 "DGND" H 7950 4030 40  0000 C CNN
+	1    7950 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 4DAE59A8
+P 7450 4050
+F 0 "C1" H 7500 4150 50  0000 L CNN
+F 1 "100nF" H 7500 3950 50  0000 L CNN
+	1    7450 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L DGND #PWR20
+U 1 1 4DAE5997
+P 7150 5400
+F 0 "#PWR20" H 7150 5400 40  0001 C CNN
+F 1 "DGND" H 7150 5330 40  0000 C CNN
+	1    7150 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P21
+U 1 1 4DAE4CBA
+P 2400 2350
+F 0 "P21" H 2480 2350 40  0000 L CNN
+F 1 "CONN_1" H 2400 2405 30  0001 C CNN
+	1    2400 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 2100 2450 0    60   BiDi ~ 0
+RD7
+$Comp
+L CONN_1 P20
+U 1 1 4D6DA03B
+P 2400 2150
+F 0 "P20" H 2480 2150 40  0000 L CNN
+F 1 "CONN_1" H 2400 2205 30  0001 C CNN
+	1    2400 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P19
+U 1 1 4D6DA038
+P 2400 1950
+F 0 "P19" H 2480 1950 40  0000 L CNN
+F 1 "CONN_1" H 2400 2005 30  0001 C CNN
+	1    2400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P18
+U 1 1 4D6DA033
+P 2400 1750
+F 0 "P18" H 2480 1750 40  0000 L CNN
+F 1 "CONN_1" H 2400 1805 30  0001 C CNN
+	1    2400 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P17
+U 1 1 4D6DA02F
+P 2400 1550
+F 0 "P17" H 2480 1550 40  0000 L CNN
+F 1 "CONN_1" H 2400 1605 30  0001 C CNN
+	1    2400 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P16
+U 1 1 4D6DA02C
+P 2400 1350
+F 0 "P16" H 2480 1350 40  0000 L CNN
+F 1 "CONN_1" H 2400 1405 30  0001 C CNN
+	1    2400 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P15
+U 1 1 4D6DA029
+P 2400 1150
+F 0 "P15" H 2480 1150 40  0000 L CNN
+F 1 "CONN_1" H 2400 1205 30  0001 C CNN
+	1    2400 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P14
+U 1 1 4D6DA022
+P 2400 950
+F 0 "P14" H 2480 950 40  0000 L CNN
+F 1 "CONN_1" H 2400 1005 30  0001 C CNN
+	1    2400 950 
+	1    0    0    -1  
+$EndComp
+Text GLabel 2100 2250 0    60   BiDi ~ 0
+RD6
+Text GLabel 2100 2050 0    60   BiDi ~ 0
+RD5
+Text GLabel 2100 1850 0    60   BiDi ~ 0
+RD4
+Text GLabel 2100 1650 0    60   BiDi ~ 0
+RD3
+Text GLabel 2100 1450 0    60   BiDi ~ 0
+RD2
+Text GLabel 2100 1250 0    60   BiDi ~ 0
+RD1
+Text GLabel 2100 1050 0    60   BiDi ~ 0
+RD0
+$EndSCHEMATC

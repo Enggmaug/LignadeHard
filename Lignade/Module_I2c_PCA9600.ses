@@ -1,0 +1,661 @@
+
+(session Module_I2c_PCA9600.ses
+  (base_design Module_I2c_PCA9600.dsn)
+  (placement
+    (resolution mil 10)
+    (component D3
+      (place D6 19685 -15748 front 180)
+      (place D5 19685 -16929 front 180)
+    )
+    (component R4
+      (place R12 16142 -9843 front 0)
+      (place R8 18504 -12657 front 0)
+    )
+    (component SM0603
+      (place C1 14528 -12165 front 0)
+    )
+    (component SM0805
+      (place R16 17323 -11024 front 0)
+      (place R15 21260 -14173 front 90)
+      (place R11 17717 -12598 back 180)
+      (place R7 17323 -14173 front 90)
+      (place R4 15748 -11024 back 0)
+      (place R3 19291 -14173 front 90)
+      (place R2 13780 -8858 front 180)
+      (place R1 13386 -11024 back 0)
+    )
+    (component SM1206
+      (place R14 15748 -9449 back 180)
+      (place R13 14567 -13386 back 180)
+      (place R10 14567 -14567 back 180)
+      (place R9 14567 -12205 back 180)
+      (place R6 14567 -11024 front 0)
+      (place R5 13346 -15354 front 270)
+    )
+    (component SO8N
+      (place U1 15039 -14213 front 0)
+    )
+    (component SOT23EBC
+      (place D4 19291 -11024 back 0)
+      (place D3 20866 -11024 front 0)
+      (place D2 19291 -10236 front 180)
+      (place D1 20866 -10236 back 180)
+    )
+    (component PtTest
+      (place VCC_I2C1 16732 -18307 front 0)
+      (place SDAy1 19685 -18307 front 0)
+      (place SDAx1 18110 -18307 front 0)
+      (place SDA1 15157 -18307 front 0)
+      (place SCLy1 18110 -8071 front 0)
+      (place SCLx1 19685 -8071 front 0)
+      (place SCL1 16535 -8071 front 0)
+      (place GND_I2C1 21260 -18307 front 0)
+      (place DGND2 21260 -8071 front 0)
+      (place DGND1 13386 -18307 front 0)
+      (place 12V1 14961 -8071 front 0)
+      (place 5V1 13386 -8071 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution mil 10)
+    (parser
+      (host_cad "Kicad's PCBNEW")
+      (host_version "(2010-03-14)-final")
+    )
+    (library_out 
+      (padstack "Via[0-1]_35:25_mil"
+        (shape
+          (circle Dessus 350 0 0)
+        )
+        (shape
+          (circle Dessous 350 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_35:0_mil"
+        (shape
+          (circle Dessus 350 0 0)
+        )
+        (shape
+          (circle Dessous 350 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "N-000001"
+        (wire
+          (path Dessus 80
+            19291 -14548
+            19291 -14866
+          )
+        )
+        (wire
+          (path Dessus 80
+            19685 -14985
+            21141 -14985
+            21260 -14866
+          )
+        )
+        (wire
+          (path Dessus 80
+            19291 -14866
+            19566 -14866
+            19685 -14985
+          )
+        )
+        (wire
+          (path Dessus 80
+            19685 -18307
+            19685 -14985
+          )
+        )
+        (wire
+          (path Dessus 80
+            21260 -14548
+            21260 -14866
+          )
+        )
+      )
+      (net "N-000002"
+        (wire
+          (path Dessous 80
+            16123 -11024
+            16441 -11024
+          )
+        )
+        (wire
+          (path Dessous 80
+            18110 -8071
+            18110 -9037
+            16441 -10706
+            16441 -11024
+          )
+        )
+        (wire
+          (path Dessus 80
+            18110 -8071
+            16948 -9233
+            16948 -11024
+          )
+        )
+      )
+      (net "N-000003"
+        (wire
+          (path Dessous 80
+            14961 -8071
+            13011 -10021
+            13011 -11024
+          )
+        )
+      )
+      (net "N-000004"
+        (wire
+          (path Dessous 80
+            15217 -13386
+            14774 -13386
+          )
+        )
+        (wire
+          (path Dessous 80
+            14774 -13386
+            14774 -15221
+            16482 -16929
+            18185 -16929
+          )
+        )
+        (wire
+          (path Dessous 80
+            17024 -12598
+            17024 -12916
+            16554 -13386
+            15217 -13386
+          )
+        )
+        (wire
+          (path Dessus 80
+            18142 -9843
+            17269 -10716
+            17269 -11426
+            17247 -11448
+            16798 -11448
+            15789 -12457
+            15789 -12963
+          )
+        )
+        (wire
+          (path Dessous 80
+            17342 -12598
+            17024 -12598
+          )
+        )
+        (wire
+          (path Dessous 80
+            17342 -12598
+            17660 -12598
+          )
+        )
+        (wire
+          (path Dessous 80
+            19291 -9843
+            19291 -10926
+            19313 -10948
+            19449 -10948
+            19615 -11114
+            19615 -11961
+            18559 -13017
+            17761 -13017
+            17660 -12916
+            17660 -12598
+          )
+        )
+        (wire
+          (path Dessous 80
+            19685 -8071
+            19291 -8465
+            19291 -9843
+          )
+        )
+        (wire
+          (path Dessous 80
+            19291 -9843
+            18142 -9843
+          )
+        )
+      )
+      (net "N-000005"
+        (wire
+          (path Dessus 80
+            16283 -14240
+            16725 -13798
+            17323 -13798
+          )
+        )
+        (wire
+          (path Dessous 80
+            20893 -10636
+            20893 -10959
+            17612 -14240
+            16283 -14240
+          )
+        )
+        (wire
+          (path Dessus 80
+            14789 -15463
+            14789 -15001
+            15550 -14240
+            16283 -14240
+          )
+        )
+        (wire
+          (path Dessous 80
+            16283 -14240
+            15956 -14567
+            15217 -14567
+          )
+        )
+        (via "Via[0-1]_35:25_mil" 16283 -14240
+        )
+        (wire
+          (path Dessus 80
+            21216 -10624
+            20893 -10624
+          )
+        )
+        (wire
+          (path Dessus 80
+            20893 -10624
+            20893 -10925
+            20871 -10947
+            20730 -10947
+            19291 -12386
+            19291 -13798
+          )
+        )
+        (wire
+          (path Dessous 80
+            21216 -10636
+            20893 -10636
+          )
+        )
+        (wire
+          (path Dessus 80
+            17323 -13798
+            19291 -13798
+          )
+        )
+      )
+      (net "N-000007"
+        (wire
+          (path Dessous 80
+            18092 -11752
+            18092 -12598
+          )
+        )
+        (wire
+          (path Dessous 80
+            18480 -11558
+            18286 -11558
+            18092 -11752
+          )
+        )
+        (wire
+          (path Dessous 80
+            18092 -11752
+            16078 -11752
+            15691 -11365
+            15691 -11024
+          )
+        )
+        (wire
+          (path Dessous 80
+            15373 -11024
+            15691 -11024
+          )
+        )
+        (wire
+          (path Dessous 80
+            16398 -9992
+            15691 -10699
+            15691 -11024
+          )
+        )
+        (wire
+          (path Dessus 80
+            15289 -12963
+            15289 -13331
+          )
+        )
+        (wire
+          (path Dessus 80
+            18480 -11558
+            16707 -13331
+            15289 -13331
+          )
+        )
+        (wire
+          (path Dessous 80
+            16398 -9449
+            16398 -9992
+          )
+        )
+        (wire
+          (path Dessous 80
+            18941 -10624
+            18941 -10947
+          )
+        )
+        (wire
+          (path Dessous 80
+            18941 -10947
+            18480 -11408
+            18480 -11558
+          )
+        )
+        (via "Via[0-1]_35:25_mil" 18480 -11558
+        )
+        (wire
+          (path Dessus 80
+            18480 -11558
+            18618 -11420
+            18618 -10636
+          )
+        )
+        (wire
+          (path Dessus 80
+            18941 -10636
+            18618 -10636
+          )
+        )
+      )
+      (net "N-000008"
+        (wire
+          (path Dessus 80
+            14789 -12963
+            14789 -12595
+          )
+        )
+        (wire
+          (path Dessus 80
+            15217 -11024
+            15217 -12375
+            14997 -12595
+            14789 -12595
+          )
+        )
+        (wire
+          (path Dessus 80
+            16535 -8071
+            15217 -9389
+            15217 -11024
+          )
+        )
+      )
+      (net "N-000009"
+        (wire
+          (path Dessous 80
+            13917 -14567
+            13917 -13386
+          )
+        )
+        (wire
+          (path Dessous 80
+            16732 -18307
+            13917 -15492
+            13917 -14567
+          )
+        )
+        (wire
+          (path Dessus 80
+            14142 -9843
+            14155 -9830
+            14155 -8858
+          )
+        )
+        (wire
+          (path Dessus 80
+            13917 -10481
+            14142 -10256
+            14142 -9843
+          )
+        )
+        (wire
+          (path Dessous 80
+            13917 -12205
+            13917 -11662
+          )
+        )
+        (wire
+          (path Dessous 80
+            13920 -11662
+            13917 -11662
+          )
+        )
+        (wire
+          (path Dessous 80
+            16504 -12657
+            16504 -12505
+            15661 -11662
+            13920 -11662
+          )
+        )
+        (wire
+          (path Dessous 80
+            13920 -11024
+            13920 -11662
+          )
+        )
+        (wire
+          (path Dessous 80
+            13917 -12843
+            13917 -12205
+          )
+        )
+        (wire
+          (path Dessous 80
+            13917 -13386
+            13917 -12843
+          )
+        )
+        (wire
+          (path Dessous 80
+            13920 -11024
+            14142 -10802
+            14142 -9843
+          )
+        )
+        (wire
+          (path Dessous 80
+            13761 -11024
+            13920 -11024
+          )
+        )
+        (wire
+          (path Dessous 80
+            14655 -9449
+            14261 -9843
+            14142 -9843
+          )
+        )
+        (wire
+          (path Dessus 80
+            14228 -12349
+            14228 -12534
+            14289 -12595
+          )
+        )
+        (wire
+          (path Dessus 80
+            14228 -12349
+            13917 -12038
+            13917 -11024
+          )
+        )
+        (wire
+          (path Dessus 80
+            14289 -12963
+            14289 -12595
+          )
+        )
+        (wire
+          (path Dessus 80
+            14228 -12165
+            14228 -12349
+          )
+        )
+        (wire
+          (path Dessous 80
+            15098 -9449
+            14655 -9449
+          )
+        )
+        (wire
+          (path Dessus 80
+            13917 -11024
+            13917 -10481
+          )
+        )
+        (wire
+          (path Dessus 80
+            14289 -12963
+            14289 -13331
+          )
+        )
+        (wire
+          (path Dessus 80
+            13346 -14704
+            13346 -14261
+          )
+        )
+        (wire
+          (path Dessus 80
+            13346 -14261
+            14276 -13331
+            14289 -13331
+          )
+        )
+      )
+      (net "N-000010"
+        (wire
+          (path Dessus 80
+            18185 -15748
+            18185 -16166
+          )
+        )
+        (wire
+          (path Dessus 80
+            18110 -18307
+            18603 -17814
+            18603 -16584
+            18185 -16166
+          )
+        )
+        (wire
+          (path Dessus 80
+            18185 -15748
+            18185 -15330
+          )
+        )
+        (wire
+          (path Dessus 80
+            17323 -14866
+            17787 -15330
+            18185 -15330
+          )
+        )
+        (wire
+          (path Dessus 80
+            17323 -14820
+            17323 -14866
+          )
+        )
+        (wire
+          (path Dessus 80
+            17323 -14548
+            17323 -14820
+          )
+        )
+        (wire
+          (path Dessus 80
+            15289 -15463
+            15289 -15095
+          )
+        )
+        (wire
+          (path Dessus 80
+            15289 -15095
+            17094 -15095
+            17323 -14866
+          )
+        )
+        (wire
+          (path Dessous 80
+            15217 -12205
+            14774 -12205
+          )
+        )
+        (wire
+          (path Dessous 80
+            18110 -18307
+            17599 -18307
+            14580 -15288
+            14580 -12399
+            14774 -12205
+          )
+        )
+        (wire
+          (path Dessous 80
+            18185 -15539
+            18185 -14976
+            20504 -12657
+          )
+        )
+        (wire
+          (path Dessous 80
+            18185 -15748
+            18185 -15539
+          )
+        )
+      )
+      (net "N-000011"
+        (wire
+          (path Dessus 80
+            13386 -8071
+            13405 -8090
+            13405 -8858
+          )
+        )
+      )
+      (net "N-000012"
+        (wire
+          (path Dessus 80
+            15157 -18307
+            15157 -16699
+            14289 -15831
+          )
+        )
+        (wire
+          (path Dessus 80
+            13346 -16004
+            13889 -16004
+          )
+        )
+        (wire
+          (path Dessus 80
+            14289 -15463
+            14289 -15831
+          )
+        )
+        (wire
+          (path Dessus 80
+            14289 -15831
+            14062 -15831
+            13889 -16004
+          )
+        )
+      )
+    )
+  )
+)

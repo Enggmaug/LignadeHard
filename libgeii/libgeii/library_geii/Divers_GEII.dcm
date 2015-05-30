@@ -1,0 +1,373 @@
+EESchema-DOCLIB  Version 2.0  Date: 25/06/2010 15:09:43
+#
+$CMP 4051
+D Analog Multiplexer 8 to 1 pins 
+K CMOS MUX MUX8 multiplexeur
+F http://www.gesi.asso.fr/docs/fairchild/MM74HC4051.pdf
+$ENDCMP
+#
+$CMP 6n138
+D opto mos 2 controls, 2 switches 
+K SWITCH OPTO optocoupleur inter
+F http://www.gesi.asso.fr/docs/fairchild/6n138-139.pdf
+$ENDCMP
+#
+$CMP 6n139
+D opto mos 2 controls, 2 switches 
+K SWITCH OPTO optocoupleur inter
+F http://www.gesi.asso.fr/docs/fairchild/6n138-139.pdf
+$ENDCMP
+#
+$CMP 74HC4051
+D Analog Multiplexer 8 to 1 pins 
+K CMOS MUX MUX8 multiplexeur
+F http://www.gesi.asso.fr/docs/fairchild/MM74HC4051.pdf
+$ENDCMP
+#
+$CMP 8255A
+D PROGRAMMABLE PERIPHERAL INTERFACE - Périphérique entrées sorties programmables
+K PIA peripheral interface adapter peripherique 
+F http://www.gesi.asso.fr/docs/intel/82C55.pdf
+$ENDCMP
+#
+$CMP 82C55
+D PROGRAMMABLE PERIPHERAL INTERFACE - Périphérique entrées sorties programmables
+K PIA peripheral interface adapter peripherique
+F http://www.gesi.asso.fr/docs/intel/82C55.pdf
+$ENDCMP
+#
+$CMP A6841
+D Bit Serial Input Latched Sink Drivers 
+K Latch serial darlington 8bits driver
+F http://www.gesi.asso.fr/docs/allegro/6841.pdf
+$ENDCMP
+#
+$CMP AD5302
+D Dual Rail-to-Rail Voltage Output 8-Bit DACs
+K  Convertisseur converter 8bit 8bits
+F http://www.gesi.asso.fr/docs/analog-dev/AD5302_12_22.pdf
+$ENDCMP
+#
+$CMP AD5312
+D Dual Rail-to-Rail Voltage Output 10-Bit DACs
+K  Convertisseur converter 10bit 10bits
+F http://www.gesi.asso.fr/docs/analog-dev/AD5302_12_22.pdf
+$ENDCMP
+#
+$CMP AD5322
+D Dual Rail-to-Rail Voltage Output 12-Bit DACs
+K  Convertisseur converter 12bit 12bits
+F http://www.gesi.asso.fr/docs/analog-dev/AD5302_12_22.pdf
+$ENDCMP
+#
+$CMP AD620
+D instrumentation Amplifier-  Amplificateur instrumentation
+K  Amplifier amplificateur  instrumentation opamp
+F http://www.gesi.asso.fr/docs/analog-dev/AD620.pdf
+$ENDCMP
+#
+$CMP AD7524
+D Convertisseur 8-bit
+K DAC convertisseur 8-bit converter CAN
+F http://www.gesi.asso.fr/docs/analog-dev/AD7524.pdf
+$ENDCMP
+#
+$CMP AD8698
+D Operational Amplifier Rail-to-Rail Output Amplificateur opérationnel de précision
+K Operational Amplifier amplificateur Rail-to-Rail opamp instrumentation
+F http://www.gesi.asso.fr/docs/analog-dev/AD8698.pdf
+$ENDCMP
+#
+$CMP AD9548
+D Quad Octal Input Network Clock - 
+K Generator Synchronizer generateur horloge
+F http://www.gesi.asso.fr/docs/analog-dev/AD9548.pdf
+$ENDCMP
+#
+$CMP ADM1716ARMZ
+D 500mA Low Dropout CMOS  Linear  Regulator 0.75v to 3.3 -  regulateur de tension
+K  Regulator regulateur
+F http://www.gesi.asso.fr/docs/analog-dev/ADP1715_16.pdf
+$ENDCMP
+#
+$CMP ADP1715ARMZ
+D 500mA Low Dropout CMOS  Linear  Regulator 0.75v to 3.3 -  regulateur de tension
+K  Regulator regulateur
+F http://www.gesi.asso.fr/docs/analog-dev/ADP1715_16.pdf
+$ENDCMP
+#
+$CMP ADUM1250
+D Hot Swappable, Dual I2C
+K I2C isolator interface isolation
+F http://www.gesi.asso.fr/docs/analog-dev/ADUM1250_51.pdf
+$ENDCMP
+#
+$CMP ADUM1251
+D Hot Swappable, Dual I2C
+K I2C isolator interface isolation
+F http://www.gesi.asso.fr/docs/analog-dev/ADUM1250_51.pdf
+$ENDCMP
+#
+$CMP ADXL202
+D Accelerometers with Digital Output - Accéléromètre  sortie numérique
+K Accelerometer  Accéléromètre
+F http://www.gesi.asso.fr/docs/analog-dev/ADXL202.pdf
+$ENDCMP
+#
+$CMP AEL12
+D Oscillateur quartz Boitier Half DIL
+K Oscillateur Quartz resonnateur resonator
+$ENDCMP
+#
+$CMP ATX12V
+D Power connector - Connecteur ATX
+K ATX alimentation PC power
+F http://www.gesi.asso.fr/docs/contrib/ATX12V.pdf
+$ENDCMP
+#
+$CMP CA3045
+D NPN Transistors arrays
+K NPN Transistor array
+F http://www.gesi.asso.fr/docs/intersil/CA3045_46.pdf
+$ENDCMP
+#
+$CMP CA3046
+D NPN Transistors arrays
+K NPN Transistor array
+F http://www.gesi.asso.fr/docs/intersil/CA3045_46.pdf
+$ENDCMP
+#
+$CMP DC71055C
+D PROGRAMMABLE PERIPHERAL INTERFACE - Périphérique entrées sorties programmables
+K PIA peripheral interface adapter peripherique 
+F http://www.gesi.asso.fr/docs/intel/82C55.pdf
+$ENDCMP
+#
+$CMP FDC6330L
+D Capteur de courant - current sensor - LEM
+K capteur sensor hall courant current
+F http://www.gesi.asso.fr/docs/contrib/Hts10-P.pdf
+$ENDCMP
+#
+$CMP FT2232
+D  DUAL USB TO SERIAL UART/FIFO
+K USB FIFO UART JTAG SPI
+F http://www.gesi.asso.fr/docs/ftdi/FT2232D.pdf
+$ENDCMP
+#
+$CMP FT232BM
+D Module Rs232 USB
+K Usb RS232 converter convertisseur UART
+F http://www.gesi.asso.fr/docs/ftdi/ft232bl.pdf
+$ENDCMP
+#
+$CMP GAL16V8
+D Pal
+K PAL GAL PLD
+F http://www.gesi.asso.fr/docs/lattice/16v8.pdf
+$ENDCMP
+#
+$CMP HIP4081
+D High Frequency Full Bridge FET Driver - Controlleur Pont H FET
+K  Bridge pont
+F http://www.gesi.asso.fr/docs/intersil/HIP4081.pdf
+$ENDCMP
+#
+$CMP ISPLSI2016
+D High density PLD
+K Pld ISP programmable 2032
+F http://www.gesi.asso.fr/docs/lattice/isplsi2032.pdf
+$ENDCMP
+#
+$CMP ISPLSI2032
+D Hight density pld
+K Pld ISP programmable 
+F http://www.gesi.asso.fr/docs/lattice/isplsi2032.pdf
+$ENDCMP
+#
+$CMP JACK_CA017
+D Connecteur Jack
+K jack
+$ENDCMP
+#
+$CMP L200
+D ADJUSTABLE VOLTAGE AND CURRENT REGULATOR-  Regulateur tension courant
+K REGULATOR régulateur pentawatt
+F http://www.gesi.asso.fr/docs/st_microelectronics/L200.pdf
+$ENDCMP
+#
+$CMP L298
+D Dual Full bridge  driver - Double pont driver entree ttl
+K driver pont motor moteur full bridge
+F http://www.gesi.asso.fr/docs/st_microelectronics/l298.pdf
+$ENDCMP
+#
+$CMP LF155
+D JFET Input Operational AMPLIFIER
+K ampliop JFET Integrator amplifier integrateur
+F http://www.gesi.asso.fr/docs/ns/LF355_357.pdf
+$ENDCMP
+#
+$CMP LF156
+D JFET Input Operational AMPLIFIER ampliop
+K ampliop JFET Integrator amplifier integrateur
+F http://www.gesi.asso.fr/docs/ns/LF355_357.pdf
+$ENDCMP
+#
+$CMP LF256
+D JFET Input Operational AMPLIFIER
+K ampliop JFET Integrator amplifier integrateur
+F http://www.gesi.asso.fr/docs/ns/LF355_357.pdf
+$ENDCMP
+#
+$CMP LF257
+D JFET Input Operational AMPLIFIER
+K ampliop JFET Integrator amplifier integrateur
+F http://www.gesi.asso.fr/docs/ns/LF355_357.pdf
+$ENDCMP
+#
+$CMP LF355
+D JFET Input Operational AMPLIFIER
+K ampliop JFET Integrator amplifier integrateur
+F http://www.gesi.asso.fr/docs/ns/LF355_357.pdf
+$ENDCMP
+#
+$CMP LF356
+D JFET Input Operational AMPLIFIER 
+K ampliop JFET Integrator amplifier integrateur
+F http://www.gesi.asso.fr/docs/ns/LF355_357.pdf
+$ENDCMP
+#
+$CMP LF357
+D JFET Input Operational AMPLIFIER
+K ampliop JFET Integrator amplifier integrateur
+F http://www.gesi.asso.fr/docs/ns/LF355_357.pdf
+$ENDCMP
+#
+$CMP LM1876
+D Dual 20W Audio Power Amplifier- Amplificateur Audio stéréo 20W
+K Amplifier ampli audio amplificateur
+F http://www.gesi.asso.fr/docs/ns/LM1876.pdf
+$ENDCMP
+#
+$CMP LM7332
+D 30V Wide Voltage Range dual Rail-to-rail - Amplificateur large plage alimentation
+K ampliop amplificateur ampli amplifier
+F V:/libgeii/library_geii/doc/ns/LM7332.pdf
+$ENDCMP
+#
+$CMP LM7372
+D HighSpeed High  Current Dual Operational - Amplificateur rapide fort courant
+K ampliop amplificateur ampli amplifier
+F V:/libgeii/library_geii/doc/ns/LM7332.pdf
+$ENDCMP
+#
+$CMP LP2985
+D Micropower 150 mA Low-Noise Ultra Low-Dropout regulator
+K regulator regulateur
+F http://www.gesi.asso.fr/docs/ns/LP2985.pdf
+$ENDCMP
+#
+$CMP LT1054
+D Switched-Capacitor Voltage Converter with Regulator - Régulateur à capacités commutées
+K regulator  converter capacitor
+F http://www.gesi.asso.fr/docs/linear-tec/LT1054.pdf
+$ENDCMP
+#
+$CMP LT1129
+D Micropower Low Dropout Regulators with Shutdown - Régulateur de tension
+K Regulateur regulator  dropout
+F http://www.gesi.asso.fr/docs/linear-tec/LT1129.pdf
+$ENDCMP
+#
+$CMP LT1394
+D Single Supply, Ground-Sensing comparator
+K comparator comparateur
+F http://www.gesi.asso.fr/docs/linear-tec/LT1394.pdf
+$ENDCMP
+#
+$CMP LT1719S8
+D Dual Supply comparator - Comparateur
+K comparator  comparateur
+F V:/libgeii/library_geii/doc/linear-tec/LT1719fa.pdf
+$ENDCMP
+#
+$CMP LT1964
+D Negative Micropower Regulator - regulateur negatif 200mA
+K regulator regulateur
+F V:/libgeii/library_geii/doc/linear-tec/LT1964fb.pdf
+$ENDCMP
+#
+$CMP M93C46
+D electrically erasable programmable  serial memory 
+K Memory memoire eeprom serial
+F http://www.gesi.asso.fr/docs/st_microelectronics/m93c46.pdf
+$ENDCMP
+#
+$CMP MachXO_1200C
+D Composant Programmable CPLD
+K CPLD PLD machxo programmable
+F http://www.gesi.asso.fr/docs/lattice/machxo.pdf
+$ENDCMP
+#
+$CMP Oscillateur
+D Oscillateur quartz Boitier Half DIL
+K Oscillateur Quartz resonateur
+F http://www.gesi.asso.fr/docs/vishay/xo52-3.pdf
+$ENDCMP
+#
+$CMP PAL22V10
+D Programmable array logic device
+K pld programmable array
+F http://www.gesi.asso.fr/docs/texas/PAL22V10.pdf
+$ENDCMP
+#
+$CMP PIC16F873
+D 8-Bit CMOS FLASH Microcontroller -  Microcontroleur 8 bits
+K Microcontroller   Microcontroleur PIC
+F http://www.gesi.asso.fr/docs/microchip/PIC16F87x.pdf
+$ENDCMP
+#
+$CMP SC12
+D Embedded Web Controller
+K micro controleur web ethernet
+F http://www.gesi.asso.fr/docs/beck/SC13_beck.pdf
+$ENDCMP
+#
+$CMP SC13
+D Embedded Web Controller sc12
+K micro controleur web ethernet
+F http://www.gesi.asso.fr/docs/beck/SC13_beck.pdf
+$ENDCMP
+#
+$CMP TDA7292
+D Dual 40W Audio Power Amplifier- Amplificateur Audio stéréo 40W
+K Amplifier ampli audio amplificateur
+F http://www.gesi.asso.fr/docs/st_microelectronics/tda7292.pdf
+$ENDCMP
+#
+$CMP TS3A5018
+D QUAD SPDT ANALOG SWITCH interrupteur simple pole double contacts
+K SPDT ANALOG SWITCH interrupteur SPDC
+F http://www.gesi.asso.fr/docs/texas/ts3a5018.pdf
+$ENDCMP
+#
+$CMP VN02N
+D High side smart power solid state relay - Relai puissance Drain Ouvert
+K Relay relai 
+F http://www.gesi.asso.fr/docs/st_microelectronics/Vn02n.pdf
+$ENDCMP
+#
+$CMP VN05N
+D High side smart power solid state relay - Relai puissance Drain Ouvert
+K Relay relai PENTAWATT
+F http://www.gesi.asso.fr/docs/st_microelectronics/Vn05n.pdf
+$ENDCMP
+#
+$CMP XO-52_Vishay
+D Oscillateur quartz Boitier Half DIL  
+K Oscillateur Quartz resonnateur resonator
+F http://www.gesi.asso.fr/docs/vishay/xo52-3.pdf
+$ENDCMP
+#
+#End Doc Library

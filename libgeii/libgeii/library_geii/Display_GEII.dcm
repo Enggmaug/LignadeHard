@@ -1,0 +1,45 @@
+EESchema-DOCLIB  Version 2.0  Date: 28/06/2010 14:19:03
+#
+$CMP LCD_GDM1601A
+D Afficheur LCD 16X1  caractères-   Display 
+K Afficheur LCD   Display 
+F http://www.gesi.asso.fr/docs/display/MC1601A.pdf
+$ENDCMP
+#
+$CMP LCD_HD44780
+D Afficheur LCD 16X2  caractères-   Display 
+K Afficheur LCD 16X2 display
+F http://www.gesi.asso.fr/docs/display/HD44780.pdf
+$ENDCMP
+#
+$CMP LCD_MCG1602D
+D Afficheur LCD 16X2  caractères-   Display 
+K Afficheur LCD    Display 
+F http://www.gesi.asso.fr/docs/display/MCG1602D.pdf
+$ENDCMP
+#
+$CMP LCD_PC2002A-O
+D Afficheur LCD 20X2  caractères-   Display 
+K Afficheur LCD   Display 
+F http://www.gesi.asso.fr/docs/display/PC2002a-o.pdf
+$ENDCMP
+#
+$CMP LCD_PC2004A-L
+D Afficheur 20x4 LCD - Display
+K Afficheur LCD - Display 
+F http://www.gesi.asso.fr/docs/display/pc2004d-o.pdf
+$ENDCMP
+#
+$CMP VI401-DPRC
+D LCD 4 DIGITS afficheur - Display
+K LCD  afficheur - Display
+F http://www.gesi.asso.fr/docs/display/vi401-dprc.pdf
+$ENDCMP
+#
+$CMP VI402-DPRC
+D LCD 4 DIGITS afficheur - Display
+K LCD afficheur - Display
+F http://www.gesi.asso.fr/docs/display/vi402-dprc.pdf
+$ENDCMP
+#
+#End Doc Library

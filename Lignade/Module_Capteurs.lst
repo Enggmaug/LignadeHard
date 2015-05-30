@@ -1,0 +1,41 @@
+eeschema (2010-00-09 BZR 23xx)-stable  >> Creation date: jeu. 05 mai 2011 15:07:42 ICT
+
+#Cmp ( ordre = Référence )
+| 3.3V1      CONN_1      ;             
+| AGND1      CONN_1      ;             
+| AGND2      CONN_1      ;             
+| C1         100nF       ;             
+| C2         100nF       ;             
+| DGND1      CONN_1      ;             
+| DGND2      CONN_1      ;             
+| R2         10K         ;             
+| R3         511K        ;             
+| R4         10K         ;             
+| SCL1       CONN_1      ;             
+| SDA1       CONN_1      ;             
+| SEL_I2C1   CONN_1      ;             
+| U1         LM75A       ;             
+| U2         HIH-5031    ;             
+| U3         PCF8591     ;             
+#End Cmp
+
+#Cmp ( ordre = Valeur )
+| 100nF        C1        ;             
+| 100nF        C2        ;             
+| 10K          R2        ;             
+| 10K          R4        ;             
+| 511K         R3        ;             
+| CONN_1       3.3V1     ;             
+| CONN_1       AGND1     ;             
+| CONN_1       AGND2     ;             
+| CONN_1       DGND1     ;             
+| CONN_1       DGND2     ;             
+| CONN_1       SCL1      ;             
+| CONN_1       SDA1      ;             
+| CONN_1       SEL_I2C1  ;             
+| HIH-5031     U2        ;             
+| LM75A        U1        ;             
+| PCF8591      U3        ;             
+#End Cmp
+
+#End List

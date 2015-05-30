@@ -1,0 +1,900 @@
+# EESchema Netlist Version 1.1 created  ven. 13 mai 2011 16:28:50 ICT
+(
+ ( /4DCCC211/4DAA843D PtTest 3.3V1 CONN_1
+  ( 1 3V3 )
+ )
+ ( /4DCCC211/4DAA8448 PtTest AGND1 CONN_1
+  ( 1 GNDA )
+ )
+ ( /4DCCC211/4DAAA098 PtTest AGND2 CONN_1
+  ( 1 GNDA )
+ )
+ ( /4DC280E4/4DAE59A8 SM0603 C1 100nF
+  ( 1 DGND )
+  ( 2 +5V )
+ )
+ ( /4DC2810A/4D6E2C01 SM0603 C2 100nF
+  ( 1 DGND )
+  ( 2 VCC )
+ )
+ ( /4DC27DC5/4D74F48C/4DAD5DB2 SM0603 C3 100nF
+  ( 1 VCC )
+  ( 2 DGND )
+ )
+ ( /4DC27DC5/4D74F48C/4DC10B09 SM0805 C4 10uF
+  ( 1 N-000157 )
+  ( 2 DGND )
+ )
+ ( /4DC27DC5/4D74F960/4D74FCCA SM0603 C5 100nF
+  ( 1 DGND )
+  ( 2 VCC )
+ )
+ ( /4DC27DC5/4D74F960/4D74FCC0 SM0603 C6 100nF
+  ( 1 DGND )
+  ( 2 VCC )
+ )
+ ( /4DCCC211/4D74FCAA SM0603 C7 100nF
+  ( 1 VSS )
+  ( 2 3V3 )
+ )
+ ( /4DCCC211/4D74FCDD SM0603 C8 100nF
+  ( 1 VSS )
+  ( 2 3V3 )
+ )
+ ( /4D70492F CONN1 CONN1 CONN-HIROSE-132_PTS
+  ( 1 ? )
+  ( 2 +5V )
+  ( 3 N-000116 )
+  ( 4 ? )
+  ( 5 N-000113 )
+  ( 6 ? )
+  ( 7 N-000020 )
+  ( 8 N-000112 )
+  ( 9 N-000019 )
+  ( 10 ? )
+  ( 11 DGND )
+  ( 12 DGND )
+  ( 13 N-000046 )
+  ( 14 ? )
+  ( 15 N-000045 )
+  ( 16 ? )
+  ( 17 N-000059 )
+  ( 18 ? )
+  ( 19 N-000018 )
+  ( 20 ? )
+  ( 21 N-000017 )
+  ( 22 ? )
+  ( 23 N-000061 )
+  ( 24 N-000084 )
+  ( 25 N-000085 )
+  ( 26 N-000063 )
+  ( 27 ? )
+  ( 28 ? )
+  ( 29 ? )
+  ( 30 ? )
+  ( 31 ? )
+  ( 32 ? )
+  ( 33 DGND )
+  ( 34 DGND )
+  ( 35 /MACAddr1 )
+  ( 36 ? )
+  ( 37 /MACAddr2 )
+  ( 38 N-000083 )
+  ( 39 /MACAddr3 )
+  ( 40 N-000082 )
+  ( 41 /MACAddr4 )
+  ( 42 N-000081 )
+  ( 43 VCC )
+  ( 44 N-000080 )
+  ( 45 ? )
+  ( 46 N-000079 )
+  ( 47 ? )
+  ( 48 ? )
+  ( 49 ? )
+  ( 50 ? )
+  ( 51 ? )
+  ( 52 ? )
+  ( 53 VCC )
+  ( 54 ? )
+  ( 55 DGND )
+  ( 56 DGND )
+  ( 57 VCC )
+  ( 58 ? )
+  ( 59 ? )
+  ( 60 ? )
+  ( 61 ? )
+  ( 62 N-000103 )
+  ( 63 ? )
+  ( 64 N-000102 )
+  ( 65 ? )
+  ( 66 N-000101 )
+  ( 67 ? )
+  ( 68 N-000100 )
+  ( 69 ? )
+  ( 70 N-000099 )
+  ( 71 N-000093 )
+  ( 72 N-000098 )
+  ( 73 N-000092 )
+  ( 74 /I2C/SDA_In )
+  ( 75 VCC )
+  ( 76 /Satelli5 )
+  ( 77 DGND )
+  ( 78 DGND )
+  ( 79 ? )
+  ( 80 +5V )
+  ( 81 ? )
+  ( 82 +5V )
+  ( 83 ? )
+  ( 84 ? )
+  ( 85 ? )
+  ( 86 ? )
+  ( 87 ? )
+  ( 88 ? )
+  ( 89 ? )
+  ( 90 ? )
+  ( 91 ? )
+  ( 92 ? )
+  ( 93 ? )
+  ( 94 ? )
+  ( 95 ? )
+  ( 96 +5V )
+  ( 97 ? )
+  ( 98 +5V )
+  ( 99 DGND )
+  ( 100 DGND )
+  ( 101 N-000091 )
+  ( 102 ? )
+  ( 103 N-000090 )
+  ( 104 ? )
+  ( 105 N-000089 )
+  ( 106 ? )
+  ( 107 N-000088 )
+  ( 108 ? )
+  ( 109 ? )
+  ( 110 ? )
+  ( 111 ? )
+  ( 112 ? )
+  ( 113 ? )
+  ( 114 ? )
+  ( 115 ? )
+  ( 116 ? )
+  ( 117 ? )
+  ( 118 ? )
+  ( 119 ? )
+  ( 120 ? )
+  ( 121 DGND )
+  ( 122 DGND )
+  ( 123 ? )
+  ( 124 ? )
+  ( 125 ? )
+  ( 126 ? )
+  ( 127 N-000087 )
+  ( 128 N-000023 )
+  ( 129 N-000086 )
+  ( 130 ? )
+  ( 131 ? )
+  ( 132 N-000104 )
+ )
+ ( /4DC280B7/4D7591D2 SM1210 D1 LED
+  ( 1 VCC )
+  ( 2 N-000126 )
+ )
+ ( /4DC280B7/4D7591C3 SM1210 D2 LED
+  ( 1 +5V )
+  ( 2 N-000127 )
+ )
+ ( /4DCCC211/4DAA8444 PtTest DGND1 CONN_1
+  ( 1 VSS )
+ )
+ ( /4DCCC211/4DAAA08A PtTest DGND2 CONN_1
+  ( 1 VSS )
+ )
+ ( /4DC288F5 Conn_3Pts K1 CONN_3
+  ( 1 /Inputs/O1 )
+  ( 2 /Inputs/6 )
+  ( 3 +5V )
+ )
+ ( /4DC288FB Conn_3Pts K2 CONN_3
+  ( 1 /Inputs/O2 )
+  ( 2 /Inputs/~O2 )
+  ( 3 +5V )
+ )
+ ( /4DC2810A/4DC28149/4D704E6B Relay K3 RELAY_1RT
+  ( 1 /Inputs/6 )
+  ( 2 /Inputs/O1 )
+  ( 3 +5V )
+  ( 4 N-000172 )
+  ( 5 N-000128 )
+ )
+ ( /4DC2810A/4DC28149/4D704E6F Relay K4 RELAY_1RT
+  ( 1 /Inputs/~O2 )
+  ( 2 /Inputs/O2 )
+  ( 3 +5V )
+  ( 4 N-000168 )
+  ( 5 N-000128 )
+ )
+ ( /4DC280B7/4DAE66D5 SM0805 L1 10uH
+  ( 1 N-000128 )
+  ( 2 DGND )
+ )
+ ( /4DC280B7/4DAE66B1 SM0805 L2 10uH
+  ( 1 AGND )
+  ( 2 DGND )
+ )
+ ( /4DC27DC5/4D74F960/4DAA8B56 ModuleCapteurs M1 MODULE_CAPTEUR
+  ( 1 /Satelli5 )
+  ( 2 /I2C/SDA_In )
+  ( 3 N-000158 )
+  ( 4 VCC )
+  ( 5 AGND )
+  ( 6 DGND )
+  ( 7 DGND )
+  ( 8 AGND )
+ )
+ ( /4DC288E7 Conn_2Pts P1 CONN_2
+  ( 1 /Inputs/I1 )
+  ( 2 DGND )
+ )
+ ( /4DC28005 PtTest P2 CONN_1
+  ( 1 /I2C/Sel_I2C_2 )
+ )
+ ( /4DC28003 PtTest P3 CONN_1
+  ( 1 /I2C/Sel_I2C_0 )
+ )
+ ( /4DC27FFB PtTest P4 CONN_1
+  ( 1 /I2C/Sel_I2C_1 )
+ )
+ ( /4DC288EF Conn_2Pts P5 CONN_2
+  ( 1 /Inputs/I2 )
+  ( 2 DGND )
+ )
+ ( /4D6D9D1B PtTest P6 CONN_1
+  ( 1 N-000020 )
+ )
+ ( /4D6D9D19 PtTest P7 CONN_1
+  ( 1 N-000019 )
+ )
+ ( /4D6D9D17 PtTest P8 CONN_1
+  ( 1 N-000046 )
+ )
+ ( /4D6D9D15 PtTest P9 CONN_1
+  ( 1 N-000045 )
+ )
+ ( /4D6D9D12 PtTest P10 CONN_1
+  ( 1 N-000059 )
+ )
+ ( /4D6D9D0E PtTest P11 CONN_1
+  ( 1 N-000018 )
+ )
+ ( /4D6D9D08 PtTest P12 CONN_1
+  ( 1 N-000017 )
+ )
+ ( /4D6D9CD4 PtTest P13 CONN_1
+  ( 1 N-000061 )
+ )
+ ( /4DC280E4/4D6DA022 PtTest P14 CONN_1
+  ( 1 N-000079 )
+ )
+ ( /4DC280E4/4D6DA029 PtTest P15 CONN_1
+  ( 1 N-000080 )
+ )
+ ( /4DC280E4/4D6DA02C PtTest P16 CONN_1
+  ( 1 N-000081 )
+ )
+ ( /4DC280E4/4D6DA02F PtTest P17 CONN_1
+  ( 1 N-000082 )
+ )
+ ( /4DC280E4/4D6DA033 PtTest P18 CONN_1
+  ( 1 N-000083 )
+ )
+ ( /4DC280E4/4D6DA038 PtTest P19 CONN_1
+  ( 1 N-000085 )
+ )
+ ( /4DC280E4/4D6DA03B PtTest P20 CONN_1
+  ( 1 N-000084 )
+ )
+ ( /4DC280E4/4DAE4CBA PtTest P21 CONN_1
+  ( 1 N-000063 )
+ )
+ ( /4DC2810A/4D6E2FBD PtTest P22 CONN_1
+  ( 1 N-000105 )
+ )
+ ( /4DC27DC5/4D74F48C/4DAC0C27 PtTest P23 CONN_1
+  ( 1 +5V )
+ )
+ ( /4DC27DC5/4D74F48C/4DAC0C23 PtTest P24 CONN_1
+  ( 1 DGND )
+ )
+ ( /4DC27DC5/4D74F48C/4DAC0C15 PtTest P25 CONN_1
+  ( 1 N-000159 )
+ )
+ ( /4DC2810A/4DC28149/4DC2838B PtTest P26 CONN_1
+  ( 1 N-000171 )
+ )
+ ( /4DC2810A/4DC28149/4D6E2CE9 PtTest P27 CONN_1
+  ( 1 N-000098 )
+ )
+ ( /4DC2810A/4DC28149/4D6E2CEA PtTest P28 CONN_1
+  ( 1 N-000099 )
+ )
+ ( /4DC2810A/4DC28149/4D6E2545 PtTest P29 CONN_1
+  ( 1 N-000100 )
+ )
+ ( /4DC2810A/4DC28149/4D6E2550 PtTest P30 CONN_1
+  ( 1 N-000101 )
+ )
+ ( /4DC2810A/4DC28149/4D6E2558 PtTest P31 CONN_1
+  ( 1 N-000102 )
+ )
+ ( /4DC2810A/4DC28149/4D6E2CEC PtTest P32 CONN_1
+  ( 1 N-000103 )
+ )
+ ( /4DC2810A/4DC28149/4D6E2CEB PtTest P33 CONN_1
+  ( 1 N-000023 )
+ )
+ ( /4DC2810A/4DC28149/4D6E2555 PtTest P34 CONN_1
+  ( 1 N-000104 )
+ )
+ ( /4DCCF970 PtTest P35 CONN_1
+  ( 1 DGND )
+ )
+ ( /4DC2810A/4DAE4E81 SOT23EBC Q1 PNP
+  ( 1 +5V )
+  ( 2 N-000137 )
+  ( 3 N-000143 )
+ )
+ ( /4DC2810A/4DC279BE SOT23EBC Q2 PNP
+  ( 1 +5V )
+  ( 2 N-000140 )
+  ( 3 N-000139 )
+ )
+ ( /4DAE63F4 SM0805 R1 0R
+  ( 1 /I2C/Sel_I2C_2 )
+  ( 2 N-000113 )
+ )
+ ( /4DAE63EE SM0805 R2 0R
+  ( 1 /I2C/Sel_I2C_0 )
+  ( 2 N-000112 )
+ )
+ ( /4DAE63E2 SM0805 R3 0R
+  ( 1 /I2C/Sel_I2C_1 )
+  ( 2 N-000116 )
+ )
+ ( /4D6D96A4 SM0805 R4 0R
+  ( 1 N-000093 )
+  ( 2 N-000105 )
+ )
+ ( /4D6D96A1 SM0805 R5 0R
+  ( 1 N-000092 )
+  ( 2 N-000105 )
+ )
+ ( /4D6D969D SM0805 R6 0R
+  ( 1 N-000091 )
+  ( 2 N-000105 )
+ )
+ ( /4D6D969A SM0805 R7 0R
+  ( 1 N-000090 )
+  ( 2 N-000105 )
+ )
+ ( /4D6D9697 SM0805 R8 0R
+  ( 1 N-000089 )
+  ( 2 N-000105 )
+ )
+ ( /4D6D9693 SM0805 R9 0R
+  ( 1 N-000088 )
+  ( 2 N-000105 )
+ )
+ ( /4D6D968F SM0805 R10 0R
+  ( 1 N-000087 )
+  ( 2 N-000105 )
+ )
+ ( /4D6D9685 SM0805 R11 0R
+  ( 1 N-000086 )
+  ( 2 N-000105 )
+ )
+ ( /4D96A8D4/4D96A928 SM0805 R12 0R
+  ( 1 VCC )
+  ( 2 /MACAddr1 )
+ )
+ ( /4D96A8D4/4D96A97D SM0805 R13 0R
+  ( 1 VCC )
+  ( 2 /MACAddr2 )
+ )
+ ( /4D96A8D4/4D96A92E SM0805 R14 0R
+  ( 1 /MACAddr1 )
+  ( 2 DGND )
+ )
+ ( /4D96A8D4/4D96A97C SM0805 R15 0R
+  ( 1 /MACAddr2 )
+  ( 2 DGND )
+ )
+ ( /4D96A8D4/4D96A967 SM0805 R16 0R
+  ( 1 VCC )
+  ( 2 /MACAddr3 )
+ )
+ ( /4D96A8D4/4D96A96D SM0805 R17 0R
+  ( 1 VCC )
+  ( 2 /MACAddr4 )
+ )
+ ( /4D96A8D4/4D96A966 SM0805 R18 0R
+  ( 1 /MACAddr3 )
+  ( 2 DGND )
+ )
+ ( /4D96A8D4/4D96A96E SM0805 R19 0R
+  ( 1 /MACAddr4 )
+  ( 2 DGND )
+ )
+ ( /4DC280B7/4DAE66D7 SM0805 R20 0R
+  ( 1 N-000128 )
+  ( 2 DGND )
+ )
+ ( /4DC280B7/4D838844 SM0805 R21 0R
+  ( 1 AGND )
+  ( 2 DGND )
+ )
+ ( /4DC280B7/4D759C24 SM0805 R22 330R
+  ( 1 N-000126 )
+  ( 2 DGND )
+ )
+ ( /4DC280B7/4D759C2A SM0805 R23 470R
+  ( 1 N-000127 )
+  ( 2 DGND )
+ )
+ ( /4DC2810A/4DAE4EAC SM0805 R24 39K
+  ( 1 +5V )
+  ( 2 N-000137 )
+ )
+ ( /4DC2810A/4DAE4F30 SM0805 R25 220R
+  ( 1 N-000137 )
+  ( 2 /Inputs/I1 )
+ )
+ ( /4DC2810A/4DAE4EE6 SM0805 R26 330R
+  ( 1 N-000143 )
+  ( 2 DGND )
+ )
+ ( /4DC2810A/4DC279BD SM0805 R27 39K
+  ( 1 +5V )
+  ( 2 N-000140 )
+ )
+ ( /4DC2810A/4DC279B9 SM0805 R28 220R
+  ( 1 N-000140 )
+  ( 2 /Inputs/I2 )
+ )
+ ( /4DC2810A/4DC279BC SM0805 R29 330R
+  ( 1 N-000139 )
+  ( 2 DGND )
+ )
+ ( /4DC27DC5/4D74F48C/4DC10AEF SM1206 R30 2,2K
+  ( 1 N-000157 )
+  ( 2 N-000129 )
+ )
+ ( /4DC27DC5/4D74F48C/4DC14E47 SM1206 R31 511K
+  ( 1 DGND )
+  ( 2 N-000159 )
+ )
+ ( /4DC27DC5/4D74F960/4D774027 SM0805 R32 1K
+  ( 1 VCC )
+  ( 2 N-000167 )
+ )
+ ( /4DCCC211/4D74FECE SM1206 R33 10K
+  ( 1 GNDA )
+  ( 2 N-000145 )
+ )
+ ( /4DCCC211/4D74FEF7 SM1206 R34 10K
+  ( 1 N-000146 )
+  ( 2 3V3 )
+ )
+ ( /4DCCC211/4D758E72 SM1206 R35 511K
+  ( 1 GNDA )
+  ( 2 N-000147 )
+ )
+ ( /4DCCC211/4DAA841A PtTest SCL1 CONN_1
+  ( 1 N-000153 )
+ )
+ ( /4DCCC211/4DAA8421 PtTest SDA1 CONN_1
+  ( 1 N-000154 )
+ )
+ ( /4DCCC211/4DAA8425 PtTest SEL_I2C1 CONN_1
+  ( 1 N-000152 )
+ )
+ ( /4DC280E4/4DAE9A90 SO16N U1 74HCT138
+  ( 1 /I2C/Sel_I2C_0 )
+  ( 2 /I2C/Sel_I2C_1 )
+  ( 3 /I2C/Sel_I2C_2 )
+  ( 4 +5V )
+  ( 5 DGND )
+  ( 6 DGND )
+  ( 7 N-000129 )
+  ( 8 DGND )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 +5V )
+ )
+ ( /4DC2810A/4DC279DD SO14N U2 74LVC132
+  ( 1 N-000143 )
+  ( 2 N-000143 )
+  ( 3 N-000105 )
+  ( 4 N-000139 )
+  ( 5 N-000139 )
+  ( 6 N-000138 )
+  ( 7 DGND )
+  ( 8 ? )
+  ( 9 DGND )
+  ( 10 DGND )
+  ( 11 ? )
+  ( 12 DGND )
+  ( 13 DGND )
+  ( 14 VCC )
+ )
+ ( /4DC27DC5/4D74F48C/4DAD5A80 SO14N U3 74LVC132
+  ( 1 N-000160 )
+  ( 2 N-000161 )
+  ( 3 N-000156 )
+  ( 4 N-000157 )
+  ( 5 N-000157 )
+  ( 6 N-000158 )
+  ( 7 DGND )
+  ( 8 N-000155 )
+  ( 9 N-000161 )
+  ( 10 N-000159 )
+  ( 11 N-000160 )
+  ( 12 N-000155 )
+  ( 13 N-000156 )
+  ( 14 VCC )
+ )
+ ( /4DC27DC5/4D74F960/4D74FA43 SO8N U4 24LC512
+  ( 1 DGND )
+  ( 2 DGND )
+  ( 3 N-000158 )
+  ( 4 DGND )
+  ( 5 /I2C/SDA_In )
+  ( 6 /Satelli5 )
+  ( 7 DGND )
+  ( 8 VCC )
+ )
+ ( /4DC27DC5/4D74F960/4DCA66E8 SO16N U5 PCA9538D
+  ( 1 N-000158 )
+  ( 2 DGND )
+  ( 3 VCC )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 DGND )
+  ( 9 N-000162 )
+  ( 10 N-000138 )
+  ( 11 N-000161 )
+  ( 12 N-000160 )
+  ( 13 N-000167 )
+  ( 14 /Satelli5 )
+  ( 15 /I2C/SDA_In )
+  ( 16 VCC )
+ )
+ ( /4DC2810A/4DC28149/4D704A1F SO14N U6 DS3680
+  ( 1 N-000171 )
+  ( 2 DGND )
+  ( 3 N-000162 )
+  ( 4 DGND )
+  ( 5 DGND )
+  ( 6 DGND )
+  ( 7 DGND )
+  ( 8 DGND )
+  ( 9 +5V )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 N-000168 )
+  ( 13 N-000172 )
+  ( 14 N-000128 )
+ )
+ ( /4DCCC211/4D80CAB8 SO8N U7 LM75A
+  ( 1 N-000154 )
+  ( 2 N-000153 )
+  ( 3 N-000146 )
+  ( 4 VSS )
+  ( 5 N-000152 )
+  ( 6 VSS )
+  ( 7 VSS )
+  ( 8 3V3 )
+ )
+ ( /4DCCC211/4D74F9D7 SO16N U8 PCF8591
+  ( 1 N-000147 )
+  ( 2 3V3 )
+  ( 3 GNDA )
+  ( 4 GNDA )
+  ( 5 3V3 )
+  ( 6 3V3 )
+  ( 7 N-000152 )
+  ( 8 VSS )
+  ( 9 N-000154 )
+  ( 10 N-000153 )
+  ( 11 ? )
+  ( 12 VSS )
+  ( 13 GNDA )
+  ( 14 3V3 )
+  ( 15 N-000145 )
+  ( 16 3V3 )
+ )
+ ( /4DCCC211/4D7583F6 HIH-5031 U9 HIH-5031
+  ( 1 GNDA )
+  ( 2 N-000147 )
+  ( 3 3V3 )
+  ( 4 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R20
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R21
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R22
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R23
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R24
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R25
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R26
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R27
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R28
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R29
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R30
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R31
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R32
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R33
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R34
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R35
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$endfootprintlist
+}

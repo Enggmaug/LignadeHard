@@ -1,0 +1,36 @@
+Composant.jpg donne un aperçu des modules créés.
+
+Liste des modules créés ou modifié lors de mon apprentissage de kicad.
+J'ai utilisé des symboles schématiques existants.
+
+-rwxr-xr-x    1 Administ Administ    11475 May 17 09:33 Conn_sil02.wings
+-rwxr-xr-x    1 Administ Administ    49895 Apr  6 12:55 MULTIW15.wings
+-rwxr-xr-x    1 Administ Administ     9566 Apr  9 20:11 adjustable_bouton.wings
+-rwxr-xr-x    1 Administ Administ    14886 Apr  9 18:29 adjustable_vertical.wings
+-rwxr-xr-x    1 Administ Administ    27391 Apr  6 12:53 c_pol_geii.wings
+-rwxr-xr-x    1 Administ Administ     1594 Apr  5 19:02 cms_so4_geii.wings
+-rwxr-xr-x    1 Administ Administ     1677 Apr  5 19:04 cms_so6_geii.wings
+-rwxr-xr-x    1 Administ Administ     3315 Apr  6 12:58 dil_6.wings
+-rwxr-xr-x    1 Administ Administ    16637 Apr  7 21:48 inter_multicomp_type1.wings
+-rwxr-xr-x    1 Administ Administ     8838 Apr  6 13:28 inter_tss3x254.wings
+-rwxr-xr-x    1 Administ Administ    10669 Apr  7 21:16 inter_tyco_tss_c.wings
+-rwxr-xr-x    1 Administ Administ     8928 Apr  7 21:17 inter_tyco_tss_d.wings
+-rwxr-xr-x    1 Administ Administ     4227 Apr  6 14:09 interdil_16.wings
+-rwxr-xr-x    1 Administ Administ     4684 Apr  7 10:39 interdil_20.wings
+-rwxr-xr-x    1 Administ Administ     2360 Apr  7 08:39 interdil_4.wings
+-rwxr-xr-x    1 Administ Administ     3042 Apr  6 14:06 interdil_8.wings
+
+-rwxr-xr-x    1 Administ Administ     7503 Apr  7 22:12 poussoir_snpo.wings
+-rwxr-xr-x    1 Administ Administ     1678 Apr 10 13:36 sop4L_geii.wings
+-rwxr-xr-x    1 Administ Administ    27250 Apr  6 14:21 sup_insnul_28_geii.wings
+-rwxr-xr-x    1 Administ Administ     6463 Apr  9 17:27 support_fusible.wings
+-rwxr-xr-x    1 Administ Administ    12994 Apr  5 19:23 textool_28_geii.wings
+-rwxr-xr-x    1 Administ Administ    14165 Apr  9 21:38 transf_implus.wings
+
+----------------- Testés lors d'une réalisation de carte
+
+
+
+-rwxr-xr-x    1 Administ Administ    22423 Apr  9 21:18 pile_support.wings
+-rwxr-xr-x    1 Administ Administ    49895 Apr  6 12:55 MULTIW15.wings
+-rwxr-xr-x    1 Administ Administ    11475 May 17 09:33 Conn_sil02.wings

@@ -1,0 +1,243 @@
+(pcb /media/Travail/Linux/Hardware/Lignade/Module_Capteurs.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "Kicad's PCBNEW")
+    (host_version "(2010-03-14)-final")
+  )
+  (resolution mil 10)
+  (unit mil)
+  (structure
+    (layer Dessus
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer Dessous
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  354.3 0  354.3 -1023.6  1299.2 -1023.6  1299.2 0  354.3 0)
+    )
+    (plane AGND (polygon Dessus 0  1279.5 -452.8  1299.2 -433.1  1299.2 -19.7  1279.5 0
+            374 0  354.3 -19.7  354.3 -433.1  374 -452.8))
+    (plane AGND (polygon Dessous 0  1279.5 -452.8  1299.2 -433.1  1299.2 -19.7  1279.5 0
+            374 0  354.3 -19.7  354.3 -433.1  374 -452.8))
+    (plane DGND (polygon Dessous 0  1279.5 -1003.9  1299.2 -984.3  1299.2 -511.8  1279.5 -492.1
+            374 -492.1  354.3 -511.8  354.3 -984.3  374 -1003.9))
+    (plane DGND (polygon Dessus 0  1279.5 -1003.9  1299.2 -984.3  1299.2 -511.8  1279.5 -492.1
+            374 -492.1  354.3 -511.8  354.3 -984.3  374 -1003.9))
+    (via "Via[0-1]_35:25_mil" "Via[0-1]_35:0_mil")
+    (rule
+      (width 8)
+      (clearance 10.1)
+      (clearance 10.1 (type default_smd))
+      (clearance 2.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component SM0603
+      (place C2 755.8 -822.7 back 90 (PN C))
+      (place C1 787.4 -590.6 back 270 (PN C))
+    )
+    (component SM1206
+      (place R4 1074.7 -318.8 front 90 (PN R))
+      (place R3 826.8 -393.7 back 270 (PN R))
+      (place R2 1047.2 -779.4 front 270 (PN R))
+      (place R1 590.6 -551.2 front 270 (PN R))
+    )
+    (component SO16N
+      (place U3 826.8 -472.4 front 270 (PN PCF8591))
+    )
+    (component SO8N
+      (place U1 826.8 -826.8 front 90 (PN LM75A))
+    )
+    (component "HIH-5031"
+      (place U2 1063 -118.1 front 270 (PN "HIH-5031"))
+    )
+    (component PtTest
+      (place SEL_I2C1 433.1 -669.3 front 0 (PN CONN_1))
+      (place SDA1 1220.4 -669.2 front 0 (PN CONN_1))
+      (place SCL1 1220.4 -393.6 front 0 (PN CONN_1))
+      (place DGND2 1220.4 -944.8 front 0 (PN CONN_1))
+      (place AGND2 433.1 -118.1 front 0 (PN CONN_1))
+      (place AGND1 1220.4 -118 front 0 (PN CONN_1))
+      (place 3.3V1 433.1 -393.7 front 0 (PN CONN_1))
+    )
+    (component PtTest::1
+      (place DGND1 433.1 -905.5 front 0 (PN CONN_1))
+    )
+  )
+  (library
+    (image SM0603
+      (outline (path signal 5  -45 25  45 25))
+      (outline (path signal 5  45 25  45 -25))
+      (outline (path signal 5  45 -25  -45 -25))
+      (outline (path signal 5  -45 -25  -45 25))
+      (pin Rect[T]Pad_25x45_mil 1 -30 0)
+      (pin Rect[T]Pad_25x45_mil 2 30 0)
+    )
+    (image SM1206
+      (outline (path signal 5  -100 45  -100 -45))
+      (outline (path signal 5  -100 -45  -35 -45))
+      (outline (path signal 5  35 45  100 45))
+      (outline (path signal 5  100 45  100 -45))
+      (outline (path signal 5  100 -45  35 -45))
+      (outline (path signal 5  -35 45  -100 45))
+      (pin Rect[T]Pad_60x80_mil 1 -65 0)
+      (pin Rect[T]Pad_60x80_mil 2 65 0)
+    )
+    (image SO16N
+      (outline (path signal 8  -220 30  -190 30))
+      (outline (path signal 8  -190 30  -190 -30))
+      (outline (path signal 8  -190 -30  -220 -30))
+      (outline (path signal 8  220 90  220 -90))
+      (outline (path signal 8  220 -90  -220 -90))
+      (outline (path signal 8  -220 -90  -220 90))
+      (outline (path signal 8  -220 90  220 90))
+      (pin Rect[T]Pad_20x45_mil 16 -175 125)
+      (pin Rect[T]Pad_20x45_mil 14 -75 125)
+      (pin Rect[T]Pad_20x45_mil 13 -25 125)
+      (pin Rect[T]Pad_20x45_mil 12 25 125)
+      (pin Rect[T]Pad_20x45_mil 11 75 125)
+      (pin Rect[T]Pad_20x45_mil 10 125 125)
+      (pin Rect[T]Pad_20x45_mil 9 175 125)
+      (pin Rect[T]Pad_20x45_mil 8 175 -125)
+      (pin Rect[T]Pad_20x45_mil 7 125 -125)
+      (pin Rect[T]Pad_20x45_mil 6 75 -125)
+      (pin Rect[T]Pad_20x45_mil 5 25 -125)
+      (pin Rect[T]Pad_20x45_mil 4 -25 -125)
+      (pin Rect[T]Pad_20x45_mil 3 -75 -125)
+      (pin Rect[T]Pad_20x45_mil 2 -125 -125)
+      (pin Rect[T]Pad_20x45_mil 1 -175 -125)
+      (pin Rect[T]Pad_20x45_mil 15 -125 125)
+    )
+    (image SO8N
+      (outline (path signal 5  -100 90  100 90))
+      (outline (path signal 5  100 90  100 -90))
+      (outline (path signal 5  100 -90  -100 -90))
+      (outline (path signal 5  -100 -90  -100 90))
+      (outline (path signal 5  -100 30  -80 30))
+      (outline (path signal 5  -80 30  -80 -20))
+      (outline (path signal 5  -80 -20  -100 -20))
+      (pin Rect[T]Pad_20x45_mil 8 -75 125)
+      (pin Rect[T]Pad_20x45_mil 7 -25 125)
+      (pin Rect[T]Pad_20x45_mil 6 25 125)
+      (pin Rect[T]Pad_20x45_mil 5 75 125)
+      (pin Rect[T]Pad_20x45_mil 4 75 -125)
+      (pin Rect[T]Pad_20x45_mil 3 25 -125)
+      (pin Rect[T]Pad_20x45_mil 2 -25 -125)
+      (pin Rect[T]Pad_20x45_mil 1 -75 -125)
+    )
+    (image "HIH-5031"
+      (outline (path signal 15  18.3 -306.3  17.4 -312.1  14.7 -317.3  10.5 -321.5  5.3 -324.2
+            -0.5 -325.1  -6.3 -324.2  -11.5 -321.5  -15.7 -317.3  -18.4 -312.1
+            -19.3 -306.3  -18.4 -300.5  -15.7 -295.3  -11.5 -291.1  -6.3 -288.4
+            -0.5 -287.5  5.3 -288.4  10.5 -291.1  14.7 -295.3  17.4 -300.5))
+      (outline (path signal 15  53.5 -146  50.9 -162.1  43.5 -176.7  31.9 -188.3  17.3 -195.7
+            1.2 -198.3  -14.9 -195.7  -29.5 -188.3  -41.1 -176.7  -48.5 -162.1
+            -51.1 -146  -48.5 -129.9  -41.1 -115.3  -29.5 -103.7  -14.9 -96.3
+            1.2 -93.7  17.3 -96.3  31.9 -103.7  43.5 -115.3  50.9 -129.9))
+      (outline (path signal 15  -80.7 -50.8  -80.7 -387.8))
+      (outline (path signal 15  82.7 -50.4  82.7 -388.6))
+      (outline (path signal 15  -81.2 -388.3  83.4 -388.3))
+      (outline (path signal 15  -81.2 -388.3  83.4 -388.3))
+      (outline (path signal 15  -81.2 -388.3  83.4 -388.3))
+      (outline (path signal 15  -81.2 -388.3  83.4 -388.3))
+      (outline (path signal 15  -81.5 -50.8  83.1 -50.8))
+      (outline (path signal 15  -81.5 -50.8  83.1 -50.8))
+      (outline (path signal 15  -81.5 -50.8  83.1 -50.8))
+      (outline (path signal 15  -81.5 -50.8  83.1 -50.8))
+      (pin Rect[T]Pad_20.1x70.1_mil 1 -50 -442.3)
+      (pin Rect[T]Pad_20.1x70.1_mil 2 0 -442.3)
+      (pin Rect[T]Pad_20.1x70.1_mil 3 50 -442.3)
+      (pin Rect[T]Pad_100x90.2_mil 4 0 0)
+    )
+    (image PtTest
+      (pin Round[A]Pad_55_mil 1 0 0)
+    )
+    (image PtTest::1
+      (pin Round[A]Pad_55_mil 1 0 -39.4)
+    )
+    (padstack Round[A]Pad_55_mil
+      (shape (circle Dessus 55))
+      (shape (circle Dessous 55))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_20x45_mil
+      (shape (rect Dessus -10 -22.5 10 22.5))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_20.1x70.1_mil
+      (shape (rect Dessus -10.05 -35.05 10.05 35.05))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_25x45_mil
+      (shape (rect Dessus -12.5 -22.5 12.5 22.5))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_60x80_mil
+      (shape (rect Dessus -30 -40 30 40))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_100x90.2_mil
+      (shape (rect Dessus -50 -45.1 50 45.1))
+      (attach off)
+    )
+    (padstack "Via[0-1]_35:25_mil"
+      (shape (circle Dessus 35))
+      (shape (circle Dessous 35))
+      (attach off)
+    )
+    (padstack "Via[0-1]_35:0_mil"
+      (shape (circle Dessus 35))
+      (shape (circle Dessous 35))
+      (attach off)
+    )
+  )
+  (network
+    (net +3.3V
+      (pins C2-2 C1-2 R2-2 R1-1 U3-16 U3-14 U3-6 U3-5 U3-2 U1-8 U2-3 3.3V1-1)
+    )
+    (net AGND
+      (pins R4-1 R3-1 U3-13 U3-4 U3-3 U2-1 AGND2-1 AGND1-1)
+    )
+    (net DGND
+      (pins C2-1 C1-1 R1-2 U3-12 U3-8 U1-7 U1-6 U1-4 DGND2-1 DGND1-1)
+    )
+    (net "N-000002"
+      (pins U3-9 U1-1 SDA1-1)
+    )
+    (net "N-000003"
+      (pins U3-7 U1-5 SEL_I2C1-1)
+    )
+    (net "N-000004"
+      (pins R3-2 U3-1 U2-2)
+    )
+    (net "N-000009"
+      (pins R2-1 U1-3)
+    )
+    (net "N-000010"
+      (pins R4-2 U3-15)
+    )
+    (net "N-000011"
+      (pins U3-10 U1-2 SCL1-1)
+    )
+    (class kicad_default "" +3.3V AGND DGND "N-000002" "N-000003" "N-000004"
+      "N-000009" "N-000010" "N-000011"
+      (circuit
+        (use_via Via[0-1]_35:25_mil)
+      )
+      (rule
+        (width 8)
+        (clearance 10.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

@@ -1,0 +1,195 @@
+PCBNEW-LibDoc----V1  29/06/2010 11:30:54
+#
+$MODULE TSOP-5
+Li TSOP-5
+Cd CMS TSOP
+Kw CMS SOT TSOP
+$EndMODULE
+#
+$MODULE DIL4-1_8
+Li DIL4-1_8
+Cd 8 pins DIL package, elliptical pads
+Kw DI resonnateur quartz
+$EndMODULE
+#
+$MODULE HTS10P
+Li HTS10P
+Cd Boitier Type capteur effet hall
+Kw capteur hts
+$EndMODULE
+#
+$MODULE pile_xr2002
+Li pile_xr2002
+Cd Support de pile XR2002
+Kw pile support
+$EndMODULE
+#
+$MODULE potard_b
+Li potard_b
+Cd Resistance variable / potentiometre bouton
+Kw R bouton potentiometre
+$EndMODULE
+#
+$MODULE Rj45-8
+Li Rj45-8
+Cd Connecteur RJ45
+Kw Rj45
+$EndMODULE
+#
+$MODULE carte_ccm01
+Li carte_ccm01
+Cd Connecteur 10 pins Support de carte
+Kw CONN  support carte
+$EndMODULE
+#
+$MODULE Carte
+Li Carte
+Cd Printed Board. Carte CI 3D
+Kw carte
+$EndMODULE
+#
+$MODULE CONN_USB-B
+Li CONN_USB-B
+Cd Connecteur USB type B
+Kw USB
+$EndMODULE
+#
+$MODULE SO6E
+Li SO6E
+Cd module CMS SOJ 6 pins etroit
+Kw CMS SOJ
+$EndMODULE
+#
+$MODULE SSOT-6
+Li SSOT-6
+Cd Module CMS SOJ 8 pins large
+Kw CMS SOJ
+$EndMODULE
+#
+$MODULE SO6N
+Li SO6N
+Cd Module CMS SOJ 8 pins large
+Kw CMS SOJ
+$EndMODULE
+#
+$MODULE Conn_sata7cm
+Li Conn_sata7cm
+Cd Connecteur sata male
+Kw sata
+$EndMODULE
+#
+$MODULE Multiwatt11v
+Li Multiwatt11v
+Cd Boitier Multiwatt 11 broches Vertical
+Kw multiwatt boitier 11b
+$EndMODULE
+#
+$MODULE multiwatt15H
+Li multiwatt15H
+Cd Boitier Multiwatt Coudé horizontal 15 broches
+Kw Multiwatt boitier 15b
+$EndMODULE
+#
+$MODULE Multiwatt15v
+Li Multiwatt15v
+Cd Boitier Multiwatt vertical 15 broches
+Kw Boitier Multiwatt 15b
+$EndMODULE
+#
+$MODULE multiwatt11H
+Li multiwatt11H
+Cd Boitier Multiwatt Coudé horizontal 11 broches
+Kw Multiwatt boitier 11b
+$EndMODULE
+#
+$MODULE PENTAWATT5V
+Li PENTAWATT5V
+Cd Boitier Pentawatt Coudé horizontal 5  broches
+Kw Pentawatt boitier 5b
+$EndMODULE
+#
+$MODULE PENTAWATT5H
+Li PENTAWATT5H
+Cd Boitier Pentawatt Coudé horizontal 5  broches
+Kw Pentawatt boitier 5b
+$EndMODULE
+#
+$MODULE LFSCP-16
+Li LFSCP-16
+Cd leadframe 16
+Kw leadframe 16 lfscp
+$EndMODULE
+#
+$MODULE LFSCP-64
+Li LFSCP-64
+Cd leadframe 64
+Kw leadframe 64 lfscp
+$EndMODULE
+#
+$MODULE LFSCP-72
+Li LFSCP-72
+Cd leadframe72
+Kw leadframe72 LFSCP
+$EndMODULE
+#
+$MODULE LFSCP-88
+Li LFSCP-88
+Cd Leadframe 88
+Kw leadframe 88 LFSCP
+$EndMODULE
+#
+$MODULE LFSCP-32
+Li LFSCP-32
+Cd leadframe 32
+Kw leadframe 32 lfscp
+$EndMODULE
+#
+$MODULE LFSCP-40
+Li LFSCP-40
+Cd leadframe 40
+Kw leadframe 40 lfscp
+$EndMODULE
+#
+$MODULE LFSCP-48
+Li LFSCP-48
+Cd leadframe 48
+Kw leadframe 48 lfscp
+$EndMODULE
+#
+$MODULE LFSCP-52
+Li LFSCP-52
+Cd leadframe 52
+Kw leadframe 52 lfscp
+$EndMODULE
+#
+$MODULE LFSCP-36
+Li LFSCP-36
+Cd leadframe 36
+Kw leadframe 36 lfscp
+$EndMODULE
+#
+$MODULE LFSCP-84
+Li LFSCP-84
+Cd Leadframe 84
+Kw Leadframe 84 LFSCP
+$EndMODULE
+#
+$MODULE Jack_s_5p
+Li Jack_s_5p
+Cd ref velleman CA018
+Kw CA018 jack
+$EndMODULE
+#
+$MODULE LCD_Dip40-w1300
+Li LCD_Dip40-w1300
+Cd Afficheur LCD 4 digits 40 pins
+Kw LCD ecran Display
+$EndMODULE
+#
+$MODULE LCD_16B
+Li LCD_16B
+Cd Ecran Lcd 16  pins - Display LCD
+Kw LCD DISPLAY ecran
+$EndMODULE
+#
+$EndLIBDOC

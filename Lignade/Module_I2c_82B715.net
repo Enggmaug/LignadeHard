@@ -1,0 +1,217 @@
+# EESchema Netlist Version 1.1 created  ven. 29 avril 2011 11:08:00 ICT
+(
+ ( /4DA97785 $noname  DGND2 CONN_1 {Lib=CONN_1}
+  (    1 N-000005 )
+ )
+ ( /4DA97783 $noname  DGND1 CONN_1 {Lib=CONN_1}
+  (    1 N-000005 )
+ )
+ ( /4DA9777E $noname  SCL1 CONN_1 {Lib=CONN_1}
+  (    1 N-000010 )
+ )
+ ( /4DA9777C $noname  SDA1 CONN_1 {Lib=CONN_1}
+  (    1 N-000003 )
+ )
+ ( /4DA9777B $noname  5V1 CONN_1 {Lib=CONN_1}
+  (    1 N-000001 )
+ )
+ ( /4DA97779 $noname  12V1 CONN_1 {Lib=CONN_1}
+  (    1 N-000008 )
+ )
+ ( /4DA97774 $noname  SCLy1 CONN_1 {Lib=CONN_1}
+  (    1 N-000005 )
+ )
+ ( /4DA97771 $noname  SDAy1 CONN_1 {Lib=CONN_1}
+  (    1 N-000005 )
+ )
+ ( /4DA9776E $noname  GND_I2C1 CONN_1 {Lib=CONN_1}
+  (    1 N-000005 )
+ )
+ ( /4DA9776C $noname  SCLx1 CONN_1 {Lib=CONN_1}
+  (    1 N-000009 )
+ )
+ ( /4DA97769 $noname  SDAx1 CONN_1 {Lib=CONN_1}
+  (    1 N-000002 )
+ )
+ ( /4DA97764 $noname  VCC_I2C1 CONN_1 {Lib=CONN_1}
+  (    1 N-000004 )
+ )
+ ( /4D720D05 $noname  R2 0R {Lib=R}
+  (    1 N-000004 )
+  (    2 N-000001 )
+ )
+ ( /4D720CC7 $noname  R1 0R {Lib=SHUNT_ALIM}
+  (    1 N-000004 )
+  (    2 N-000008 )
+ )
+ ( /4D71F595 $noname  D5 ZENER {Lib=ZENER}
+  (    1 N-000005 )
+  (    2 N-000004 )
+ )
+ ( /4D71D970 $noname  U1 82B715 {Lib=82B715}
+  (    1 ? )
+  (    2 N-000002 )
+  (    3 N-000003 )
+  (    4 N-000005 )
+  (    5 ? )
+  (    6 N-000010 )
+  (    7 N-000009 )
+  (    8 N-000004 )
+ )
+ ( /4D6DB7D7 $noname  C1 100nF {Lib=C}
+  (    1 N-000004 )
+  (    2 N-000005 )
+ )
+ ( /4D6DA9BE $noname  D4 . {Lib=DIODE}
+  (    1 N-000005 )
+  (    2 N-000009 )
+ )
+ ( /4D6DA9B8 $noname  D3 . {Lib=DIODE}
+  (    1 N-000009 )
+  (    2 N-000004 )
+ )
+ ( /4D6DA9B0 $noname  D2 . {Lib=DIODE}
+  (    1 N-000005 )
+  (    2 N-000002 )
+ )
+ ( /4D6DA9A2 $noname  D1 . {Lib=DIODE}
+  (    1 N-000002 )
+  (    2 N-000004 )
+ )
+ ( /4D6DA949 $noname  R4 10K {Lib=R}
+  (    1 N-000004 )
+  (    2 N-000010 )
+ )
+ ( /4D6DA942 $noname  R3 10K {Lib=R}
+  (    1 N-000004 )
+  (    2 N-000003 )
+ )
+ ( /4D6DA93B $noname  R5 2,7K {Lib=R}
+  (    1 N-000004 )
+  (    2 N-000002 )
+ )
+ ( /4D6DA933 $noname  R6 2,7K {Lib=R}
+  (    1 N-000004 )
+  (    2 N-000009 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D5
+ D?
+ SO*
+ SM*
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component D4
+ D?
+ S*
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ R2 2
+ 5V1 1
+Net 2 "" ""
+ R5 2
+ SDAx1 1
+ D1 1
+ D2 2
+ U1 2
+Net 3 "" ""
+ R3 2
+ U1 3
+ SDA1 1
+Net 4 "" ""
+ D5 2
+ R4 1
+ D1 2
+ R3 1
+ R5 1
+ D3 2
+ R6 1
+ C1 1
+ VCC_I2C1 1
+ R2 1
+ R1 1
+ U1 8
+Net 5 "" ""
+ DGND2 1
+ DGND1 1
+ SCLy1 1
+ SDAy1 1
+ GND_I2C1 1
+ D5 1
+ D4 1
+ D2 1
+ C1 2
+ U1 4
+Net 8 "" ""
+ R1 2
+ 12V1 1
+Net 9 "" ""
+ SCLx1 1
+ U1 7
+ D4 2
+ D3 1
+ R6 2
+Net 10 "" ""
+ SCL1 1
+ R4 2
+ U1 6
+}
+#End
